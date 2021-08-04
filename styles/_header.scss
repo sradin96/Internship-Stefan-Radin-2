@@ -1,0 +1,87 @@
+.top {
+	background: $dark-bg;
+	display: block;
+	@media only screen and (max-width: 1080px){
+		display: none;
+	}
+}
+
+.bottom {
+	position: fixed;
+	width: 100%;
+	background: $white;
+	z-index: 999;
+	overflow: hidden;
+}
+
+.top-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.contact-info {
+	display: flex;
+}
+
+.info {
+	margin-right: 10px;
+}
+
+.contact-phone {
+	margin-right: 50px;
+}
+
+.socials-info {
+	display: flex;
+}
+
+.phone-number, .email-address {
+	color: $white;
+	letter-spacing: -1px;
+	font-size: 16px;
+}
+
+.socials-ul {
+	display: flex;
+	align-items: center;
+}
+
+.follow-us, .socials-link {
+	color: $white;
+}
+
+.navigation {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 23px 0 20px 0;
+}
+
+.open-menu, .close-menu {
+	display: none;
+
+	@media only screen and(max-width: 1080px){
+		display: block;
+	}
+}
+
+.navbar {
+	padding: 20px 0 0 0;
+}
+
+.navigation-bar {
+	display: flex;
+}
+
+.nav-lists {
+	margin-left: 32px;
+}
+
+.nav-links {
+	font-size: 16px;
+	font-family: $poppins;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: $dark-gray-color;
+}

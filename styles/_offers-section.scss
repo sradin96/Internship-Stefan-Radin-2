@@ -1,0 +1,67 @@
+.offers-section{
+	text-align: center;
+	padding: 100px 0 130px 0;
+}
+
+.offers-header{
+	font-family: $poppins;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-weight: 600;
+	color: $dark-gray-color;	
+}
+
+.offers-text{
+	font-size: 16px;
+	font-family: $merriweather;
+	color: $lite-gray-color;
+	margin: 34px 0 110px 0; 
+}
+
+.offers-box{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.offers-img{
+	height: 57px;
+	width: 58px;
+	margin-bottom: 22px;
+}
+
+.box-text{
+	color: $white;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: $poppins;
+}
+
+.versicherungen{
+	background-image: url(../images/Versicherungen.jpg);
+	height: 200px;
+	width: 260px;
+	margin: 0 8px;
+}
+
+.privatversicherungen{
+	background-image: url(../images/Privatversicherungen.png);
+	height: 200px;
+	width: 260px;
+	margin: 0 8px;
+}
+
+.finanzen{
+	background-image: url(../images/Finanzen.png);
+	height: 200px;
+	width: 260px;
+	margin: 0 8px;
+}
+
+.treuhand{
+	background-image: url(../images/Treuhand.png);
+	height: 200px;
+	width: 260px;
+	margin: 0 8px;
+}

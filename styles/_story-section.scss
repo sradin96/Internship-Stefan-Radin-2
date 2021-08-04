@@ -1,0 +1,36 @@
+.story-section{
+	background: #f3f4f5;
+	padding: 150px 0 160px 0;
+}
+
+.story{
+	display: flex;
+	align-items: center;
+}
+
+.story-text{
+	margin-left: 108px;
+	margin-top: 13px;
+}
+
+.story-header{
+	font-weight: 600;
+	text-transform: uppercase;
+	font-size: 36px;
+	font-family: $poppins;
+	margin-top: 52px;
+}
+
+.short-story-text{
+	font-family: $merriweather;
+	font-size: 16px;
+	color: $lite-gray-color;
+	margin-top: 36px;
+}
+
+.long-story-text{
+	font-family: $poppins;
+	font-size: 14px;
+	color: $lite-gray-color;
+	line-height: 24px;
+}

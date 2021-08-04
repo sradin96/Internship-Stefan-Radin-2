@@ -1,0 +1,294 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  background: #af943e;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 13px 35px;
+}
+
+.top {
+  background: #212121;
+  display: block;
+}
+
+@media only screen and (max-width: 1080px) {
+  .top {
+    display: none;
+  }
+}
+
+.bottom {
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  z-index: 999;
+  overflow: hidden;
+}
+
+.top-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info {
+  margin-right: 10px;
+}
+
+.contact-phone {
+  margin-right: 50px;
+}
+
+.socials-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.phone-number, .email-address {
+  color: #ffffff;
+  letter-spacing: -1px;
+  font-size: 16px;
+}
+
+.socials-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.follow-us, .socials-link {
+  color: #ffffff;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 23px 0 20px 0;
+}
+
+.open-menu, .close-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1080px) {
+  .open-menu, .close-menu {
+    display: block;
+  }
+}
+
+.navbar {
+  padding: 20px 0 0 0;
+}
+
+.navigation-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-lists {
+  margin-left: 32px;
+}
+
+.nav-links {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.hero-section {
+  background-image: url(../images/main-img.jpg);
+  background-repeat: no-repeat;
+  height: 773px;
+  width: 100%;
+  margin-top: 118px;
+}
+
+.main-text {
+  padding-top: 239px;
+}
+
+.hero-header {
+  text-transform: uppercase;
+  color: #333333;
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 600;
+  padding-left: 0px;
+}
+
+.hero-text {
+  margin: 53px 0 34px 0;
+  font-size: 18px;
+  font-family: "Merriweather", serif;
+}
+
+.offers-section {
+  text-align: center;
+  padding: 100px 0 130px 0;
+}
+
+.offers-header {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.offers-text {
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  color: #666666;
+  margin: 34px 0 110px 0;
+}
+
+.offers-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.offers-img {
+  height: 57px;
+  width: 58px;
+  margin-bottom: 22px;
+}
+
+.box-text {
+  color: #ffffff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.versicherungen {
+  background-image: url(../images/Versicherungen.jpg);
+  height: 200px;
+  width: 260px;
+  margin: 0 8px;
+}
+
+.privatversicherungen {
+  background-image: url(../images/Privatversicherungen.png);
+  height: 200px;
+  width: 260px;
+  margin: 0 8px;
+}
+
+.finanzen {
+  background-image: url(../images/Finanzen.png);
+  height: 200px;
+  width: 260px;
+  margin: 0 8px;
+}
+
+.treuhand {
+  background-image: url(../images/Treuhand.png);
+  height: 200px;
+  width: 260px;
+  margin: 0 8px;
+}
+
+.story-section {
+  background: #f3f4f5;
+  padding: 150px 0 160px 0;
+}
+
+.story {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.story-text {
+  margin-left: 108px;
+  margin-top: 13px;
+}
+
+.story-header {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 52px;
+}
+
+.short-story-text {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  color: #666666;
+  margin-top: 36px;
+}
+
+.long-story-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+}
+
+.gallery-img {
+  height: 302px;
+  width: 290px;
+}
+/*# sourceMappingURL=style.css.map */

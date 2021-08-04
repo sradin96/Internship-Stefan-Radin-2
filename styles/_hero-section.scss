@@ -1,0 +1,26 @@
+.hero-section{
+	background-image: url(../images/main-img.jpg);
+	background-repeat: no-repeat;
+	height: 773px;
+	width: 100%;
+	margin-top: 118px;
+}
+
+.main-text{
+	padding-top: 239px;
+}
+
+.hero-header{
+	text-transform: uppercase;
+	color: $dark-gray-color;
+	font-family: $poppins;
+	font-size: 60px;
+	font-weight: 600;
+	padding-left: 0px;
+}
+
+.hero-text{
+	margin: 53px 0 34px 0;
+	font-size: 18px;
+	font-family: $merriweather;
+}
