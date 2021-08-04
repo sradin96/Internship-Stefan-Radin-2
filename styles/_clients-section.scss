@@ -1,0 +1,51 @@
+.clients-section {
+	text-align: center;
+}
+
+.clients-head {
+	font-weight: 600;
+	font-size: 36px;
+	font-family: $poppins;
+	text-transform: uppercase;
+	color: $dark-gray-color;
+}
+
+.clients-text {
+	color: $lite-gray-color;
+	font-size: 16px;
+	font-family: $merriweather;
+}
+
+.clients-images{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.clients-img{
+	margin: 50px 30px;
+}
+
+.clients-contact-bar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
+	background: $gold;
+}
+
+.clients-contact-text{
+	font-family: $merriweather;
+	font-size: 18px;
+	font-weight: 300;
+	color: $white;
+}
+
+.clients-btn{
+	background: $white;
+	color: $dark-gray-color;
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: $poppins;
+}

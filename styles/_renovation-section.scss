@@ -1,0 +1,62 @@
+.renovation-section{
+}
+
+.renovation{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.renovation-img{
+	width: 1008px;
+	height: 544px;
+}
+
+.top-img{
+	margin-left: -409px;
+}
+
+.bottom-img{
+	margin-right: -408px;
+}
+
+.renovation-box{
+	text-align: left;
+	width: 624px;
+	height: 448px;
+	z-index: 10;
+	padding: 65px 0 0 40px;
+	margin-bottom: 10px;
+}
+
+.top-box{
+	background: #1c1c1c;
+	color: $white;
+	margin-left: -150px;
+}
+
+.bottom-box{
+	background: #f3f4f5;
+	margin-right: -150px;
+	color: $dark-gray-color;
+}
+
+.renovation-head{
+	font-family: $poppins;
+	font-size: 36px;
+	font-weight: 600;
+	width: 300px;
+	line-height: 48px;
+	margin-bottom: 40px;
+}
+
+.renovation-text{
+	font-family: $poppins;
+	font-size: 14px;
+	width: 450px;
+	line-height: 24px;
+}
+
+.bottom-text{
+	color: $lite-gray-color;
+}

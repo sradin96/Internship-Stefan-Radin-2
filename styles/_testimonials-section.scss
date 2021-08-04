@@ -1,0 +1,46 @@
+.testimonials-section{
+	background:  #181a1b;
+	text-align: center;
+	padding: 100px 0;
+}
+
+.testimonials-box{
+	border: 1px solid $gold;
+	padding: 80px 0;
+	position: relative;
+}
+
+.testimonials-head{
+	font-family: $poppins;
+	color: $white;
+	font-size: 36px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.testimonials-text{
+	font-weight: 300;
+	font-family: $merriweather;
+	color: $white;
+	line-height: 30px;
+	width: 850px;
+	margin: auto;
+}
+
+.testimonials-name{
+	font-family: $poppins;
+	color: $white;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+
+.quotes{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: -35px;
+	padding: 20px;
+	border-radius: 50%;
+	background: #181a1b;
+}

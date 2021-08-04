@@ -1,3 +1,17 @@
+.gallery-section{
+	text-align: center;
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+.gallery-head{
+	font-family: $poppins;
+	font-size: 36px;
+	line-height: 33px;
+	text-transform: uppercase;
+	color: $dark-gray-color;
+}
+
 .gallery-img{
 	height: 302px;
 	width: 290px;

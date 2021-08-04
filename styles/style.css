@@ -29,7 +29,12 @@ li {
 
 .top {
   background: #212121;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
   display: block;
+  padding: 8px 0;
 }
 
 @media only screen and (max-width: 1080px) {
@@ -43,6 +48,7 @@ li {
   width: 100%;
   background: #ffffff;
   z-index: 999;
+  top: 40px;
   overflow: hidden;
 }
 
@@ -76,6 +82,9 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .phone-number, .email-address {
@@ -88,13 +97,23 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.socials-list {
+  margin-left: 22px;
 }
 
 .follow-us, .socials-link {
   color: #ffffff;
+}
+
+.follow-us {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 .navigation {
@@ -143,11 +162,9 @@ li {
 }
 
 .hero-section {
-  background-image: url(../images/main-img.jpg);
-  background-repeat: no-repeat;
   height: 773px;
   width: 100%;
-  margin-top: 118px;
+  margin-top: 158px;
 }
 
 .main-text {
@@ -287,8 +304,200 @@ li {
   line-height: 24px;
 }
 
+.renovation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.renovation-img {
+  width: 1008px;
+  height: 544px;
+}
+
+.top-img {
+  margin-left: -409px;
+}
+
+.bottom-img {
+  margin-right: -408px;
+}
+
+.renovation-box {
+  text-align: left;
+  width: 624px;
+  height: 448px;
+  z-index: 10;
+  padding: 65px 0 0 40px;
+  margin-bottom: 10px;
+}
+
+.top-box {
+  background: #1c1c1c;
+  color: #ffffff;
+  margin-left: -150px;
+}
+
+.bottom-box {
+  background: #f3f4f5;
+  margin-right: -150px;
+  color: #333333;
+}
+
+.renovation-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  width: 300px;
+  line-height: 48px;
+  margin-bottom: 40px;
+}
+
+.renovation-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  width: 450px;
+  line-height: 24px;
+}
+
+.bottom-text {
+  color: #666666;
+}
+
+.testimonials-section {
+  background: #181a1b;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.testimonials-box {
+  border: 1px solid #af943e;
+  padding: 80px 0;
+  position: relative;
+}
+
+.testimonials-head {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.testimonials-text {
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+  color: #ffffff;
+  line-height: 30px;
+  width: 850px;
+  margin: auto;
+}
+
+.testimonials-name {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.quotes {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: -35px;
+  padding: 20px;
+  border-radius: 50%;
+  background: #181a1b;
+}
+
+.gallery-section {
+  text-align: center;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.gallery-head {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  line-height: 33px;
+  text-transform: uppercase;
+  color: #333333;
+}
+
 .gallery-img {
   height: 302px;
   width: 290px;
+}
+
+.clients-section {
+  text-align: center;
+}
+
+.clients-head {
+  font-weight: 600;
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.clients-text {
+  color: #666666;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+}
+
+.clients-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients-img {
+  margin: 50px 30px;
+}
+
+.clients-contact-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px;
+  background: #af943e;
+}
+
+.clients-contact-text {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.clients-btn {
+  background: #ffffff;
+  color: #333333;
+  font-weight: 500;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
