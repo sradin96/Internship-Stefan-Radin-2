@@ -518,7 +518,6 @@ li {
 }
 
 .question-link:hover {
-  font-weight: 500;
   color: #af943e;
 }
 
@@ -736,8 +735,6 @@ li {
 }
 
 .map-social {
-  width: 90px;
-  height: 90px;
   background: #212121;
   display: -webkit-box;
   display: -ms-flexbox;

@@ -14,7 +14,7 @@ $(document).ready(function() {
     arrows: false,
     dots: true,
     fade: true,
-    speed: 1000,
+    speed: 600,
     infinite: true,
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
     touchThreshold: 100
