@@ -383,7 +383,6 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1510px;
 }
 
 .reno-img {
@@ -408,6 +407,11 @@ li {
   background: #1c1c1c;
   color: #ffffff;
   margin-left: -100px;
+}
+
+.bottom-part {
+  float: right;
+  margin-top: 6px;
 }
 
 .bottom-box {
@@ -482,6 +486,7 @@ li {
   padding: 20px;
   border-radius: 50%;
   background: #181a1b;
+  z-index: 90;
 }
 
 .testimonials-section .slick-dots li button:before {
@@ -655,6 +660,170 @@ li {
 .gallery-img {
   height: 302px;
   width: 290px;
+}
+
+.map-section {
+  height: 480px;
+}
+
+.map-contain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-head {
+  font-family: "Poppins", sans-serif;
+  color: #b8976a;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.map-header {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #212121;
+  line-height: 36px;
+}
+
+.map-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dolor-text {
+  font-family: "Poppins", sans-serif;
+  color: #666666;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.dolor-btn {
+  background: transparent;
+  border: 1px solid #212121;
+  color: #212121;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.contact-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f1f1f1f1;
+  margin: 200px 0 100px 0;
+}
+
+.main-contact-img {
+  width: 979px;
+  height: 794px;
+}
+
+.contact-img {
+  width: 100%;
+}
+
+.contact-header {
+  color: #262626;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 36px;
+  font-size: 36px;
+}
+
+.contact-mail-text {
+  color: #666666;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  opacity: 0.85;
+}
+
+.contact-street {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-section-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contact-mini-header {
+  font-size: 36px;
+  font-family: "Poppins", sans-serif;
+  color: #111111;
+  font-weight: 400;
+}
+
+.text-section-info {
+  color: #666666;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.label {
+  color: #111111;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: .45;
+}
+
+.enter-input {
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000000;
+  outline: none;
+}
+
+.input-submit {
+  background: #af943e;
+  color: #ffffff;
+  width: 160px;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  border: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.textarea {
+  outline: none;
+  background: transparent;
 }
 
 .clients-section {
