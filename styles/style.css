@@ -291,6 +291,9 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 0 8px;
+  height: 200px;
+  width: 260px;
 }
 
 .offers-img {
@@ -306,32 +309,17 @@ li {
   font-family: "Poppins", sans-serif;
 }
 
-.versicherungen {
-  background-image: url(../images/Versicherungen.jpg);
-  height: 200px;
-  width: 260px;
-  margin: 0 8px;
-}
-
-.privatversicherungen {
-  background-image: url(../images/Privatversicherungen.png);
-  height: 200px;
-  width: 260px;
-  margin: 0 8px;
-}
-
-.finanzen {
-  background-image: url(../images/Finanzen.png);
-  height: 200px;
-  width: 260px;
-  margin: 0 8px;
-}
-
-.treuhand {
-  background-image: url(../images/Treuhand.png);
-  height: 200px;
-  width: 260px;
-  margin: 0 8px;
+.offers-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .story-section {
@@ -495,6 +483,7 @@ li {
 
 .testimonials-section .slick-dots li button:before {
   border: 1px solid #af943e;
+  margin-top: 80px;
 }
 
 .testimonials-section .slick-dots li.slick-active button:before {

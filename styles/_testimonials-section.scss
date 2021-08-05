@@ -48,8 +48,10 @@
 
 .testimonials-section{
 	.slick-dots{
+		
 		li button:before {
 			border: 1px solid $gold;
+			margin-top: 80px;
 		}
 		li.slick-active button:before {
 			background-color: $gold;

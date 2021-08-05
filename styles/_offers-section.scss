@@ -24,6 +24,9 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	margin: 0 8px;
+	height: 200px;
+	width: 260px;
 }
 
 .offers-img{
@@ -39,30 +42,8 @@
 	font-family: $poppins;
 }
 
-.versicherungen{
-	background-image: url(../images/Versicherungen.jpg);
-	height: 200px;
-	width: 260px;
-	margin: 0 8px;
-}
-
-.privatversicherungen{
-	background-image: url(../images/Privatversicherungen.png);
-	height: 200px;
-	width: 260px;
-	margin: 0 8px;
-}
-
-.finanzen{
-	background-image: url(../images/Finanzen.png);
-	height: 200px;
-	width: 260px;
-	margin: 0 8px;
-}
-
-.treuhand{
-	background-image: url(../images/Treuhand.png);
-	height: 200px;
-	width: 260px;
-	margin: 0 8px;
+.offers-links{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }

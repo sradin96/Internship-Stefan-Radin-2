@@ -9,6 +9,17 @@ $(document).ready(function() {
 	$('.slider').slick(slickOpts);
   });
 
+  $('.slider-2').slick({
+    draggable: true,
+    arrows: false,
+    dots: true,
+    fade: true,
+    speed: 1000,
+    infinite: true,
+    cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
+    touchThreshold: 100
+  })
+
 $(document).ready(function(){
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
