@@ -1,10 +1,12 @@
 .renovation-section{
+	overflow: hidden;
 }
 
 .renovation{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	
 }
 
 .renovation-img{

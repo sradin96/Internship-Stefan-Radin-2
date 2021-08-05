@@ -4,7 +4,7 @@
 	margin-top: 158px;
 }
 
-.main-text{
+.slider-item{
 	padding-top: 239px;
 }
 
@@ -21,4 +21,36 @@
 	margin: 53px 0 34px 0;
 	font-size: 18px;
 	font-family: $merriweather;
+}
+
+.main-btn:hover{
+	color: $gold;
+	background: transparent;
+	border: 1px solid $gold;
+}
+
+.slick-dots {
+	transform: translateY(-165%);
+	li button:before,
+	li.slick-active button:before {
+	  color: transparent;
+	  opacity: 1;
+	}
+	button{
+		padding: 0;
+	}
+	li button:before {
+	  background-color: transparent;
+	  border: 1px solid $dark-gray-color;
+	  border-radius: 50%;
+	  display: inline-block;
+	  height: 8px;
+	  width: 8px;
+	}
+	li.slick-active button:before {
+	  background-color: $dark-gray-color;
+	}
+	li:hover button:before {
+		background-color: $dark-gray-color;
+	}
 }

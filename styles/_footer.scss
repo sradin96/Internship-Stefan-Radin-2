@@ -3,9 +3,18 @@
 	padding: 80px 0;
 }
 
+.row-footer{
+	display: flex;
+	align-items: center;
+}
+
 .footer-links{
 	font-family: $poppins;
 	color: #888888;
+}
+
+.footer-links:hover{
+	color: $gold;
 }
 
 .bottom-footer{

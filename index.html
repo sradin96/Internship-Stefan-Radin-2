@@ -5,9 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />	<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -60,20 +59,43 @@
 				</div>
 			</div>
 		</header>
-	<section class="hero-section" style="background-image: url(./images/main-img.jpg);">
-		<div class="container">
-			<div class="main-text main-slider">
-				<h1 class="hero-header">Insalvo Consulting</h1>
-				<p class="hero-text">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>
-					elit, sed diam nonummy nibh</p>
+		<div class="slider">
+			<div class="slider-item hero-section" style="background-image: url(./images/main-img.jpg);">
+				<div class="container">
+					<h1 class="hero-header">Insalvo Consulting</h1>
+					<p class="hero-text">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>
+							elit, sed diam nonummy nibh</p>
 					<a href="#" class="main-btn btn">Read more</a>
+				</div>
+			</div>
+			<div class="slider-item hero-section" style="background-image: url(./images/main-img.jpg);">
+				<div class="container">
+					<h1 class="hero-header">Insalvo Consulting-2</h1>
+					<p class="hero-text">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>
+							elit, sed diam nonummy nibh</p>
+					<a href="#" class="main-btn btn">Read more</a>
+				</div>
+			</div>
+			<div class="slider-item hero-section" style="background-image: url(./images/main-img.jpg);">
+				<div class="container">
+					<h1 class="hero-header">Insalvo Consulting-3</h1>
+					<p class="hero-text">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>
+							elit, sed diam nonummy nibh</p>
+					<a href="#" class="main-btn btn">Read more</a>
+				</div>
+			</div>
+			<div class="slider-item hero-section" style="background-image: url(./images/main-img.jpg);">
+				<div class="container">
+					<h1 class="hero-header">Insalvo Consulting-4</h1>
+					<p class="hero-text">Lorem ipsum dolor sit amet, consectetuer adipiscing<br>
+							elit, sed diam nonummy nibh</p>
+					<a href="#" class="main-btn btn">Read more</a>
+				</div>
 			</div>
 		</div>
-	</section>
-	<div class="pagination-parent"></div>
 	<section class="offers-section">
 		<div class="container">
-			<h2 class="offers-header">Our services</h2>
+			<h2 class="offers-header active">Our services</h2>
 			<p class="offers-text">This is what we can offer to you</p>
 			<div class="img-box">
 				<div class="row">
@@ -104,7 +126,7 @@
 					<img class="main-story-img" src="./images/out-story-img.jpg" alt="">
 				</div>
 				<div class="story-text">
-					<h2 class="story-header">Our story</h2>
+					<h2 class="story-header underline-story">Our story</h2>
 					<p class="short-story-text">We made this so you could present your business</p>
 					<p class="long-story-text">Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.<br>
 						<br>
@@ -135,39 +157,79 @@
 	</section>
 	<section class="testimonials-section">
 		<div class="container">
-			<div class="testimonials-box">
-				<h2 class="testimonials-head">Testimonials</h2>
-				<p class="testimonials-text">‘’Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut enim ad minim laoreet consectetuer adipiscing elit.’’</p>
-				<span class="testimonials-name">Sam Jackson</span>
-				<img class="quotes" src="./images/quotes.png" alt="">
-			</div>
+			<div class="slider">
+				<div class="testimonials-box">
+					<h2 class="testimonials-head active">Testimonials</h2>
+					<p class="testimonials-text">‘’Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut enim ad minim laoreet consectetuer adipiscing elit.’’</p>
+					<span class="testimonials-name">Sam Jackson</span>
+					<img class="quotes" src="./images/quotes.png" alt="">
+				</div>
+				<div class="testimonials-box">
+					<h2 class="testimonials-head active">Testimonials-2</h2>
+					<p class="testimonials-text">‘’Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut enim ad minim laoreet consectetuer adipiscing elit.’’</p>
+					<span class="testimonials-name">Sam Jackson</span>
+					<img class="quotes" src="./images/quotes.png" alt="">
+				</div>
+				<div class="testimonials-box">
+					<h2 class="testimonials-head active">Testimonials-3</h2>
+					<p class="testimonials-text">‘’Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut enim ad minim laoreet consectetuer adipiscing elit.’’</p>
+					<span class="testimonials-name">Sam Jackson</span>
+					<img class="quotes" src="./images/quotes.png" alt="">
+				</div>
+			</div>	
 		</div>
 	</section>
 	<section class="questions-section">
 		<div class="container">
-			<h2 class="questions-header">Frequenlty asked questions</h2>
+			<h2 class="questions-header active">Frequenlty asked questions</h2>
 			<div class="questions">
-				<div class="first-question">
-					<i class="fas fa-angle-right"></i>
-					<span>What is ENGO Smart?</span>
+				<div class="first-question questions-box">
+					<a class="question-link" href="#"><i class="fas fa-angle-right fa-lg"></i><span class="question-span">What is ENGO Smart?</span></a>
+					<div class="show-text">
+						<p class="questions-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+					</div>
 				</div>
-				<div class="second-question">
-					<i class="fas fa-angle-right"></i>
-					<span>What ENGO Smart can do for me?</span>
+				<div class="second-question questions-box">
+					<a class="question-link" href="#"><i class="fas fa-angle-right fa-lg"></i><span class="question-span">What ENGO Smart can do for me?</span></a>
+					<div class="show-text">
+						<p class="questions-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+					</div>
 				</div>
-				<div class="third-question">
-					<i class="fas fa-angle-right"></i>
-					<span>What is ENGO Smart?</span>
+				<div class="third-question questions-box">
+					<a class="question-link" href="#"><i class="fas fa-angle-right fa-lg"></i><span class="question-span">What is ENGO Smart?</span></a>
+					<div class="show-text">
+						<p class="questions-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+					</div>
 				</div>
-				<div class="fourth-question">
-					<i class="fas fa-angle-right"></i>
-					<span>What is ENGO Smart?</span>
+				<div class="fourth-question questions-box">
+					<a class="question-link" href="#"><i class="fas fa-angle-right fa-lg"></i><span class="question-span">What ENGO Smart can do for me?</span></a>
+					<div class="show-text">
+						<p class="questions-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
+	<section class="choose-section">
+			<div class="choose-img">
+				<img class="worker-img" src="./images/worker-img.jpg" alt="">
+			</div>
+			<div class="choose-text">
+				<h2 class="choose-header">Why choose us?</h2>
+					<div class="text-box">
+						<div class="text-tab">
+							<span class="tab active-state">Text tab 1</span>
+							<span class="tab">Text tab 2</span>
+							<span class="tab">Text tab 3</span>
+						</div>
+					</div>
+				<div class="text-tab-text">
+						<p class="tab-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'.</p>
+				</div>
+			</div>
+	</section>
 	<section class="gallery-section">
-		<h2 class="gallery-head">Gallery</h2>
+		<h2 class="gallery-head active">Gallery</h2>
 		<div class="row">
 			<div class="col-2">
 				<img class="gallery-img" src="./images/gallery-1.jpg" alt="">
@@ -241,7 +303,7 @@
 	</section>
 	<section class="clients-section">
 		<div class="container">
-			<h2 class="clients-head">The clients</h2>
+			<h2 class="clients-head active">The clients</h2>
 			<p class="clients-text">We were happy to work with them</p>
 			<div class="clients-box">
 				<div class="row clients-images">
@@ -264,7 +326,7 @@
 	<footer class="top-footer">
 		<div class="container">
 			<div class="main-footer">
-				<div class="row">
+				<div class="row row-footer">
 					<div class="col-4 footer-logo">
 						<img class="footer-img" src="./images/logo-footer.png" alt="">
 						<p class="footer-text">Duis autem vel eum iriure dolor in hendrerit in vulpu tate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.</p>
@@ -302,10 +364,10 @@
 		</d>
 	</footer>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 	<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<script src="https://kit.fontawesome.com/f1be843773.js" crossorigin="anonymous"></script>
 	<script src="./app/app.js"></script>

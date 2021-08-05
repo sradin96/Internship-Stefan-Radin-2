@@ -16,6 +16,7 @@
 	font-size: 36px;
 	font-weight: 600;
 	text-transform: uppercase;
+	position: relative;
 }
 
 .testimonials-text{
@@ -24,7 +25,7 @@
 	color: $white;
 	line-height: 30px;
 	width: 850px;
-	margin: auto;
+	margin: 26px auto;
 }
 
 .testimonials-name{
@@ -38,9 +39,22 @@
 	position: absolute;
 	top: 0;
 	left: 50%;
-	transform: translateX(-50%);
-	margin-top: -35px;
+	transform: translate(-50%, -50%);
 	padding: 20px;
 	border-radius: 50%;
 	background: #181a1b;
+}
+
+.testimonials-section{
+	.slick-dots{
+		li button:before {
+			border: 1px solid $gold;
+		}
+		li.slick-active button:before {
+			background-color: $gold;
+		  }
+		  li:hover button:before {
+			  background-color: $gold;
+		  }
+	}
 }

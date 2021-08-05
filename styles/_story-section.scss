@@ -19,6 +19,17 @@
 	font-size: 36px;
 	font-family: $poppins;
 	margin-top: 52px;
+	position: relative;
+}
+
+.underline-story::after{
+	content: "";
+	position: absolute;
+	width: 36px;
+	height: 3px;
+	background: $gold;
+	bottom: -16px;
+	left: 0;
 }
 
 .short-story-text{

@@ -1,0 +1,79 @@
+.choose-section{
+	background: #af943e;
+	padding: 0px 0;
+	display: flex;
+}
+
+.choose-img{
+	width: 791px;
+	height: 494px;
+}
+
+.worker-img{
+	width: 100%;
+}
+
+.choose-header{
+	color: $white;
+	font-family: $poppins;
+	font-size: 36px;
+	line-height: 48px;
+}
+
+.choose-text{
+	padding: 50px 100px;
+	text-align: left;
+	width: 738px;
+}
+
+.text-tab{
+	margin: 20px 0;
+	position: relative;
+}
+
+.tab{
+	color: $white;
+	opacity: .5;
+	font-family: $poppins;
+	font-size: 16px;
+	line-height: 25px;
+	cursor: pointer;
+	margin: 0 20px;
+}
+
+.text-tab:after{
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 360px;
+	height: 2px;
+	background: $white;
+	opacity: .5;
+}
+
+.tab:hover{
+	opacity: .9;
+}
+
+.active-state{
+	opacity: 1;
+}
+
+.active-state:after{
+	content: "";
+	position: absolute;
+	bottom: -10px;
+	left: 0;
+	width: 120px;
+	height: 4px;
+	background: $white;
+}
+
+.tab-text{
+	color: $white;
+	font-family: $poppins;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+}

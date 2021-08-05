@@ -8,6 +8,8 @@
 	font-family: $poppins;
 	text-transform: uppercase;
 	color: $dark-gray-color;
+	position: relative;
+	margin-bottom: 30px;
 }
 
 .clients-text {
@@ -32,6 +34,7 @@
 	align-items: center;
 	padding: 30px;
 	background: $gold;
+	transform: translateY(50%);
 }
 
 .clients-contact-text{

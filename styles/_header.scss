@@ -104,4 +104,20 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	color: $dark-gray-color;
+	position: relative;
+}
+
+.nav-links:hover, .socials-link:hover, .phone-number:hover, .email-address:hover{
+	color: $gold;
+}
+
+.active:after{
+	content: "";
+	position: absolute;
+	width: 36px;
+	height: 3px;
+	background: $gold;
+	bottom: -16px;
+	left: 50%;
+	transform: translateX(-50%);
 }
