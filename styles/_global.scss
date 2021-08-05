@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 $poppins: 'Poppins', sans-serif;
 $merriweather: 'Merriweather', serif;
 $raleway: 'Raleway', sans-serif;
@@ -46,9 +50,9 @@ li{
 .underline::after{
 	content: "";
 	position: absolute;
-	width: 36px;
+	width: 39px;
 	height: 3px;
 	background: $gold;
-	bottom: -16px;
+	bottom: -19px;
 	left: 0;
 }

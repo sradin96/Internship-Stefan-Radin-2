@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 1110px;
   margin: auto;
@@ -31,10 +35,10 @@ li {
 .underline::after {
   content: "";
   position: absolute;
-  width: 36px;
+  width: 39px;
   height: 3px;
   background: #af943e;
-  bottom: -16px;
+  bottom: -19px;
   left: 0;
 }
 
@@ -670,6 +674,9 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .top-head {
@@ -733,6 +740,25 @@ li {
   -webkit-box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
           box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
   padding: 80px 100px;
+}
+
+.dolor-info {
+  color: #ffffff;
+}
+
+.map-social {
+  width: 90px;
+  height: 90px;
+  background: #212121;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .contact-section {

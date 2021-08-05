@@ -4,6 +4,7 @@
 
 .map-contain{
 	display: flex;
+	align-items: center;
 }
 
 .top-head{
@@ -60,4 +61,17 @@
 	transform: translateY(50%);
 	box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
 	padding: 80px 100px;
+}
+
+.dolor-info {
+	color: $white;
+}
+
+.map-social{
+	width: 90px;
+	height: 90px;
+	background: $dark-bg;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }

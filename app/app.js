@@ -9,21 +9,21 @@ $(document).ready(function() {
 	$('.slider').slick(slickOpts);
   });
 
-
-$(document).ready(function() {
-	$("a#single_image").fancybox();
-
-	$("a#inline").fancybox({
-		'hideOnContentClick': true
-	});
-
-	
-	$("a.group").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200, 
-		'overlayShow'	:	false
-	});
-	
-});
+$(document).ready(function(){
+	$(window).scroll(function(){
+		var scroll = $(window).scrollTop();
+		if (scroll > 60) {
+		  $(".top").css("transform" , "translateY(-100%)");
+		}
+  
+		else {
+			$(".top").css("transform" , "translateY(0%)");  	
+		}
+		if (scroll > 60) {
+			$(".bottom").css("transform" , "translateY(-50%)");
+		  }	
+		  else {
+			  $(".bottom").css("transform" , "translateY(0%)");  	
+		  }
+	})
+})
