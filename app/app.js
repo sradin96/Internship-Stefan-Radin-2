@@ -25,16 +25,20 @@ $(document).ready(function(){
 		var scroll = $(window).scrollTop();
 		if (scroll > 60) {
 		  $(".top").css("transform" , "translateY(-100%)");
+		  $(".top").css("transition" , "all .2s ease-out");  
 		}
   
 		else {
-			$(".top").css("transform" , "translateY(0%)");  	
+			$(".top").css("transform" , "translateY(0%)");  
+			$(".top").css("transition" , "all .2s ease-in");  	
 		}
 		if (scroll > 60) {
 			$(".bottom").css("transform" , "translateY(-50%)");
+			$(".bottom").css("transition" , "all .2s ease-in");
 		  }	
 		  else {
 			  $(".bottom").css("transform" , "translateY(0%)");  	
+			  $(".bottom").css("transition" , "all .2s ease-in");
 		  }
 	})
 })
