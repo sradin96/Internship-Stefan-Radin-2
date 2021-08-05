@@ -9,7 +9,7 @@ $(document).ready(function() {
 	$('.slider').slick(slickOpts);
   });
 
-  $('.slider-2').slick({
+$('.slider-2').slick({
     draggable: true,
     arrows: false,
     dots: true,
@@ -18,7 +18,13 @@ $(document).ready(function() {
     infinite: true,
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
     touchThreshold: 100
-  })
+});
+
+$(document).ready(function(){
+	$('.question-link').on('click', function(){
+		$('.show-text').toggle();
+	});
+});
 
 $(document).ready(function(){
 	$(window).scroll(function(){
