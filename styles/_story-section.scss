@@ -22,16 +22,6 @@
 	position: relative;
 }
 
-.underline-story::after{
-	content: "";
-	position: absolute;
-	width: 36px;
-	height: 3px;
-	background: $gold;
-	bottom: -16px;
-	left: 0;
-}
-
 .short-story-text{
 	font-family: $merriweather;
 	font-size: 16px;

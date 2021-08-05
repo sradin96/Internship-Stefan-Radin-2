@@ -1,5 +1,5 @@
 .map-section{
-	height: 480px;
+	height: 540px;
 }
 
 .map-contain{
@@ -36,11 +36,25 @@
 
 .dolor-btn{
 	background: transparent;
-	border: 1px solid $dark-bg;
+	border: 2px solid $dark-bg;
 	color: $dark-bg;
 	font-family: $poppins;
 	text-transform: uppercase;
 	font-size: 14px;
 	line-height: 23px;
 	font-weight: 500;
+}
+
+.dolor-btn:hover{
+	color: $white;
+	background: $dark-bg;
+}
+
+.dolor-sit{
+	background: $white;
+	height: 540px;
+	width: 540px;
+	transform: translateY(50%);
+	box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
+	padding: 80px 100px;
 }

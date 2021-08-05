@@ -28,6 +28,16 @@ li {
   border-radius: 0;
 }
 
+.underline::after {
+  content: "";
+  position: absolute;
+  width: 36px;
+  height: 3px;
+  background: #af943e;
+  bottom: -16px;
+  left: 0;
+}
+
 .top {
   background: #212121;
   position: fixed;
@@ -348,16 +358,6 @@ li {
   position: relative;
 }
 
-.underline-story::after {
-  content: "";
-  position: absolute;
-  width: 36px;
-  height: 3px;
-  background: #af943e;
-  bottom: -16px;
-  left: 0;
-}
-
 .short-story-text {
   font-family: "Merriweather", serif;
   font-size: 16px;
@@ -663,7 +663,7 @@ li {
 }
 
 .map-section {
-  height: 480px;
+  height: 540px;
 }
 
 .map-contain {
@@ -707,7 +707,7 @@ li {
 
 .dolor-btn {
   background: transparent;
-  border: 1px solid #212121;
+  border: 2px solid #212121;
   color: #212121;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -716,12 +716,28 @@ li {
   font-weight: 500;
 }
 
+.dolor-btn:hover {
+  color: #ffffff;
+  background: #212121;
+}
+
+.dolor-sit {
+  background: #ffffff;
+  height: 540px;
+  width: 540px;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+  -webkit-box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
+          box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
+  padding: 80px 100px;
+}
+
 .contact-section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   background: #f1f1f1f1;
-  margin: 200px 0 100px 0;
+  margin: 350px 0 100px 0;
 }
 
 .main-contact-img {
@@ -908,6 +924,30 @@ li {
           align-items: center;
 }
 
+.footer-text {
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+  color: #888888;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.socials-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-social-links {
+  color: #ffffff;
+  padding: 8px 14px;
+  border: 1px solid #af943e;
+  border-radius: 50%;
+}
+
 .footer-links {
   font-family: "Poppins", sans-serif;
   color: #888888;
@@ -915,6 +955,16 @@ li {
 
 .footer-links:hover {
   color: #af943e;
+}
+
+.footer-span {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  text-transform: uppercase;
+  position: relative;
 }
 
 .bottom-footer {

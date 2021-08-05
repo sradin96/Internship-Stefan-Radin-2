@@ -42,3 +42,13 @@ li{
 	padding: 13px 35px;
 	border-radius: 0;
 }
+
+.underline::after{
+	content: "";
+	position: absolute;
+	width: 36px;
+	height: 3px;
+	background: $gold;
+	bottom: -16px;
+	left: 0;
+}
