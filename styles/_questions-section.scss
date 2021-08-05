@@ -1,5 +1,6 @@
 .questions-section{
 	overflow: hidden;
+	padding: 50px 0;
 }
 
 .questions-header{
@@ -8,22 +9,21 @@
 	font-size: 36px;
 	font-weight: 600;
 	color: $dark-gray-color;
-	text-transform: uppercase;
 	position: relative;
 	margin-bottom: 50px;
 }
 
-.question-span{
+.question-link{
 	font-family: $poppins;
 	font-size: 25px;
 	font-weight: 400;
 	color: $dark-gray-color;
-	margin-left: 100px;
+	margin-left: 150px;
 }
 
-.question-span:hover{
-	color: $gold;
+.question-link:hover{
 	font-weight: 500;
+	color: $gold;
 }
 
 .questions-box{
@@ -32,10 +32,7 @@
 
 .fa-angle-right{
 	color: $gold;
-}
-
-.fa-angle-right:hover{
-	transform: rotate(90deg);
+	margin-right: 50px;
 }
 
 .show-text{

@@ -5,21 +5,16 @@
 .renovation{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	
+	width: 1510px;
 }
 
-.renovation-img{
+.reno-img{
 	width: 1008px;
 	height: 544px;
 }
 
-.top-img{
-	margin-left: -409px;
-}
-
-.bottom-img{
-	margin-right: -408px;
+.renovation-img{
+	width: 100%;
 }
 
 .renovation-box{
@@ -34,7 +29,7 @@
 .top-box{
 	background: #1c1c1c;
 	color: $white;
-	margin-left: -150px;
+	margin-left: -100px;
 }
 
 .bottom-box{
