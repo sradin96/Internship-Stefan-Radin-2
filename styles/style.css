@@ -193,6 +193,10 @@ li {
           transform: translateX(-50%);
 }
 
+.hero-header {
+  position: relative;
+}
+
 .hero-section {
   height: 773px;
   width: 100%;
