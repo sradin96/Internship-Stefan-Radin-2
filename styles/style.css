@@ -922,6 +922,11 @@ li {
           justify-content: center;
 }
 
+.map-socials:hover, .address-social:hover {
+  opacity: .9;
+  cursor: pointer;
+}
+
 .gold-bg {
   background: #b8976a;
 }
