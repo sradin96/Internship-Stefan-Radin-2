@@ -101,6 +101,7 @@
 	background: transparent;
 	border-bottom: 1px solid #000000;
 	outline: none;
+	width: 255px;
 }
 
 .input-submit{
@@ -115,15 +116,20 @@
 	float: right;
 }
 
+input:focus, input:hover{
+	border-bottom:1px solid #2aaeb3;
+	caret-color: #2aaeb3;
+}
+
+input, label{
+	display: block;
+}
+
 .input-submit:hover{
 	color: $gold;
 	border: 1px solid $gold;
 	background: transparent;
 	transition: .2s ease-in;
-}
-
-input, label{
-	display: block;
 }
 
 .form-name{

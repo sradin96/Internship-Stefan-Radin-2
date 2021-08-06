@@ -778,6 +778,7 @@ li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-left: 64px;
 }
 
 .map-img {
@@ -1050,6 +1051,7 @@ li {
   background: transparent;
   border-bottom: 1px solid #000000;
   outline: none;
+  width: 255px;
 }
 
 .input-submit {
@@ -1064,16 +1066,21 @@ li {
   float: right;
 }
 
+input:focus, input:hover {
+  border-bottom: 1px solid #2aaeb3;
+  caret-color: #2aaeb3;
+}
+
+input, label {
+  display: block;
+}
+
 .input-submit:hover {
   color: #af943e;
   border: 1px solid #af943e;
   background: transparent;
   -webkit-transition: .2s ease-in;
   transition: .2s ease-in;
-}
-
-input, label {
-  display: block;
 }
 
 .form-name {
