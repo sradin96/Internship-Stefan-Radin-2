@@ -332,6 +332,11 @@ li {
           align-items: center;
 }
 
+.offers-box:hover {
+  cursor: pointer;
+  opacity: .9;
+}
+
 .story-section {
   background: #f3f4f5;
   padding: 150px 0 160px 0;
@@ -758,6 +763,7 @@ li {
 .gallery-img {
   height: 302px;
   width: 290px;
+  margin: 10px 0;
 }
 
 .map-section {
