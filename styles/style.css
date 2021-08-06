@@ -563,7 +563,6 @@ li {
   font-size: 25px;
   font-weight: 400;
   color: #333333;
-  margin-left: 150px;
   -webkit-transition: .3s;
   transition: .3s;
 }
@@ -605,8 +604,6 @@ li {
 }
 
 .show-text.active-state {
-  padding: 40px 0;
-  padding-left: 190px;
   max-height: 1000px;
 }
 
