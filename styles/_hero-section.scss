@@ -53,6 +53,7 @@
 	  height: 12px;
 	  width: 12px;
 	  margin-left: 3px;
+	  transition: .3s;
 	}
 	li.slick-active button:before {
 	  background-color: $dark-gray-color;
