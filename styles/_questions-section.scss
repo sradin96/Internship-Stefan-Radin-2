@@ -42,9 +42,9 @@
   margin: 50px 0 50px -70px;
   display: none;
   position: relative;
-  transition: max-height .3s;
   overflow: hidden;
   max-height: 0;
+  transition: max-height .5s cubic-bezier(0, 1, 0, 1);
 }
 
 .show-text::before{
@@ -62,9 +62,9 @@
 .show-text.active-state{
 	display: block;
   	padding-left: 190px;
-	max-height: 10000px;
+	max-height: 1000px;
+	transition: max-height 1s ease-in-out;
 }
-
 .angle-right{
 	transform: rotate(90deg);
 }
