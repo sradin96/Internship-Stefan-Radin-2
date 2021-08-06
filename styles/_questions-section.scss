@@ -41,6 +41,9 @@
   margin: 50px 0 50px -70px;
   display: none;
   position: relative;
+  max-height: 0;
+  transition: max-height 1s ease-in;
+  overflow: hidden;
 }
 
 .show-text::before{
@@ -58,7 +61,7 @@
 .show-text.active-state{
 	display: block;
   	padding-left: 190px;
-	animation: animateText .8s ease-out;
+	max-height: 10000px;
 }
 
 .angle-right{
@@ -71,15 +74,4 @@
 	font-size: 14px;
 	font-family: $poppins;
 	line-height: 24px;
-}
-
-@keyframes animateText{
-	0%{
-		transform: translateY(-50%);
-		opacity: 0;
-	}
-	100%{
-		transform: translateY(0%);
-		opacity: 1;
-	}
 }

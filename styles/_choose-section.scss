@@ -84,16 +84,14 @@
 
 .active-text{
 	display: block;
-	animation: animateTextTab .8s ease-in-out;
+	animation: animateTextTab 1s ease-in-out;
 }
 
 @keyframes animateTextTab{
 	0%{
-		transform: translateX(-50%);
 		opacity: 0;
 	}
 	100%{
-		transform: translateX(0%);
 		opacity: 1;
 	}
 }
