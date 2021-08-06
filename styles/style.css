@@ -408,6 +408,7 @@ li {
 
 .renovation-section {
   overflow: hidden;
+  height: 1087px;
 }
 
 .renovation {
@@ -420,8 +421,8 @@ li {
 }
 
 .reno-img {
-  width: 1008px;
-  height: 541px;
+  max-width: 1008px;
+  max-height: 541px;
 }
 
 .renovation-img {
@@ -435,7 +436,10 @@ li {
   height: 448px;
   z-index: 10;
   padding: 65px 0 0 40px;
-  margin-bottom: 10px;
+}
+
+.top-part {
+  margin-top: -10px;
 }
 
 .top-box {
@@ -447,7 +451,7 @@ li {
 
 .bottom-part {
   float: right;
-  margin-top: 6px;
+  margin-top: 9px;
 }
 
 .bottom-box {
@@ -572,7 +576,7 @@ li {
   margin: 20px 0;
 }
 
-.fa-angle-right {
+.fa-chevron-right {
   color: #af943e;
   margin-right: 50px;
 }
@@ -843,6 +847,7 @@ li {
   font-size: 14px;
   line-height: 23px;
   font-weight: 500;
+  padding: 16px 28px;
 }
 
 .dolor-btn:hover {
@@ -1011,7 +1016,7 @@ li {
   color: #111111;
   font-weight: 400;
   position: relative;
-  margin: 30px 0 50px 0;
+  margin: 30px 0 60px 0;
 }
 
 .contact-mini-header::before {
@@ -1083,6 +1088,10 @@ input, label {
   display: block;
 }
 
+label {
+  margin-bottom: 20px;
+}
+
 .input-submit:hover {
   color: #af943e;
   border: 1px solid #af943e;
@@ -1102,6 +1111,7 @@ input, label {
 
 .form-message {
   clear: both;
+  padding-top: 50px;
 }
 
 .textarea {
@@ -1213,6 +1223,7 @@ input, label {
   color: #888888;
   line-height: 24px;
   font-size: 14px;
+  margin: 40px 0;
 }
 
 .socials-footer {
@@ -1233,6 +1244,14 @@ input, label {
   padding: 8px 14px;
   border: 1px solid #af943e;
   border-radius: 50%;
+  display: inline-block;
+  border-width: 1px;
+  font-size: 12px;
+  margin-right: 14px;
+}
+
+.footer-social-links:hover {
+  color: #af943e;
 }
 
 .footer-links {

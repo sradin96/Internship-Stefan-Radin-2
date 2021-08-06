@@ -54,7 +54,7 @@
 	color: $cod-gray;
 	font-weight: 400;
 	position: relative;
-	margin: 30px 0 50px 0;
+	margin: 30px 0 60px 0;
 }
 
 .contact-mini-header::before{
@@ -125,6 +125,10 @@ input, label{
 	display: block;
 }
 
+label{
+	margin-bottom: 20px;
+}
+
 .input-submit:hover{
 	color: $gold;
 	border: 1px solid $gold;
@@ -143,6 +147,7 @@ input, label{
 
 .form-message{
 	clear: both;
+	padding-top: 50px;
 }
 
 .textarea{

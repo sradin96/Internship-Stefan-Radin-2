@@ -1,5 +1,6 @@
 .renovation-section{
 	overflow: hidden;
+	height: 1087px;
 }
 
 .renovation{
@@ -8,8 +9,8 @@
 }
 
 .reno-img{
-	width: 1008px;
-	height: 541px;
+	max-width: 1008px;
+	max-height: 541px;
 }
 
 .renovation-img{
@@ -23,7 +24,10 @@
 	height: 448px;
 	z-index: 10;
 	padding: 65px 0 0 40px;
-	margin-bottom: 10px;
+}
+
+.top-part{
+	margin-top: -10px;
 }
 
 .top-box{
@@ -34,7 +38,7 @@
 
 .bottom-part{
 	float: right;
-	margin-top: 6px;
+	margin-top: 9px;
 }
 
 .bottom-box{
