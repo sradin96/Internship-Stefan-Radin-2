@@ -920,7 +920,7 @@ li {
   background: #212121;
 }
 
-.fa-linkedin, .fa-twitter {
+.map-linkedin, .map-twitter {
   color: #121b23;
 }
 
@@ -1104,6 +1104,14 @@ li {
   font-family: "Poppins", sans-serif;
 }
 
+.clients-btn:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: transparent;
+  -webkit-transition: .2s ease-in;
+  transition: .2s ease-in;
+}
+
 .top-footer {
   background: #181a1b;
   padding: 80px 0;
@@ -1139,6 +1147,10 @@ li {
           align-items: center;
 }
 
+.footer-logo {
+  margin-right: 50px;
+}
+
 .footer-social-links {
   color: #ffffff;
   padding: 8px 14px;
@@ -1153,6 +1165,14 @@ li {
   transition: .2s;
 }
 
+.footer-link {
+  line-height: 35px;
+}
+
+.footer-right {
+  margin-right: 20px;
+}
+
 .footer-links:hover {
   color: #af943e;
 }
@@ -1165,6 +1185,10 @@ li {
   line-height: 33px;
   text-transform: uppercase;
   position: relative;
+}
+
+.foot-link {
+  padding-left: 0;
 }
 
 .nav-footer, .contact-footer {

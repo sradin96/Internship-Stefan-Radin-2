@@ -24,6 +24,10 @@
 	align-items: center;
 }
 
+.footer-logo{
+	margin-right: 50px;
+}
+
 .footer-social-links{
 	color: $white;
 	padding: 8px 14px;
@@ -35,6 +39,14 @@
 	font-family: $poppins;
 	color: #888888;
 	transition: .2s;
+}
+
+.footer-link{
+	line-height: 35px;
+}
+
+.footer-right{
+	margin-right: 20px;
 }
 
 .footer-links:hover{
@@ -49,6 +61,10 @@
 	line-height: 33px;
 	text-transform: uppercase;
 	position: relative;
+}
+
+.foot-link{
+	padding-left: 0;
 }
 
 .nav-footer, .contact-footer{
