@@ -17,7 +17,10 @@ $('.slider-2').slick({
     speed: 600,
     infinite: true,
     cssEase: 'cubic-bezier(0.7, 0, 0.3, 1)',
-    touchThreshold: 100
+    touchThreshold: 100,
+	autoplay: true,
+	autoplaySpeed: 2000,
+	pauseOnFocus: true,
 });
 
 $('.nav-links').click(function () {
