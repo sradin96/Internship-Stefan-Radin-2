@@ -584,10 +584,10 @@ li {
   margin: 50px 0 50px -70px;
   display: none;
   position: relative;
-  max-height: 0;
-  -webkit-transition: max-height 1s ease-in;
-  transition: max-height 1s ease-in;
+  -webkit-transition: max-height .3s;
+  transition: max-height .3s;
   overflow: hidden;
+  max-height: 0;
 }
 
 .show-text::before {
@@ -669,8 +669,8 @@ li {
   cursor: pointer;
   margin: 0 20px;
   position: relative;
-  -webkit-transition: .2s;
-  transition: .2s;
+  -webkit-transition: .1s;
+  transition: .1s;
 }
 
 .text-tab:after {

@@ -42,9 +42,9 @@
   margin: 50px 0 50px -70px;
   display: none;
   position: relative;
-  max-height: 0;
-  transition: max-height 1s ease-in;
+  transition: max-height .3s;
   overflow: hidden;
+  max-height: 0;
 }
 
 .show-text::before{
