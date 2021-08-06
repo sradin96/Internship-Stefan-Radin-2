@@ -25,7 +25,7 @@ $('.nav-links').click(function () {
 });
 
 $('.question-link').click(function () {
-		$('.fa-angle-right').removeClass('angle-right').eq($(this).index('.question-link')).addClass('angle-right');
+		$('.fa-chevron-right').removeClass('angle-right').eq($(this).index('.question-link')).addClass('angle-right');
 		$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
 });
 

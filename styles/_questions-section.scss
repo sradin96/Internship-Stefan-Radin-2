@@ -23,7 +23,7 @@
 }
 
 .question-link:hover {
-  color: $gold;
+  color: #b19d60;
 }
 
 .questions-box {
@@ -31,7 +31,7 @@
 }
 
 .fa-chevron-right {
-  color: $gold;
+  color: #b19d60;
   margin-right: 50px;
 }
 
@@ -44,7 +44,7 @@
   position: relative;
   overflow: hidden;
   max-height: 0;
-  transition: max-height .5s cubic-bezier(0, 1, 0, 1);
+  transition: max-height .5s ease;
 }
 
 .show-text::before{
@@ -55,7 +55,7 @@
 	left: 225px;
 	width: 5px;
 	height: 50px;
-	background: $gold;
+	background: #b19d60;
 	transform: translateY(-50%);
 }
 

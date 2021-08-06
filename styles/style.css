@@ -569,7 +569,7 @@ li {
 }
 
 .question-link:hover {
-  color: #af943e;
+  color: #b19d60;
 }
 
 .questions-box {
@@ -577,7 +577,7 @@ li {
 }
 
 .fa-chevron-right {
-  color: #af943e;
+  color: #b19d60;
   margin-right: 50px;
 }
 
@@ -590,8 +590,8 @@ li {
   position: relative;
   overflow: hidden;
   max-height: 0;
-  -webkit-transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
-  transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+  -webkit-transition: max-height .5s ease;
+  transition: max-height .5s ease;
 }
 
 .show-text::before {
@@ -602,7 +602,7 @@ li {
   left: 225px;
   width: 5px;
   height: 50px;
-  background: #af943e;
+  background: #b19d60;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
