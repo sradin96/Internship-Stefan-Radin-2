@@ -39,14 +39,30 @@
   padding: 40px 0px;
   min-width: 100vw;
   margin: 50px 0 50px -70px;
+  display: none;
 }
 
-.questions-text {
-  font-family: $poppins;
-  color: $lite-gray-color;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 24px;
-  width: 1110px;
-  padding-left: 190px;
+.show-text.active-state{
+	display: block;
+  	padding-left: 190px;
+	animation: animateText 1s ease;
+}
+
+.questions-text{
+	width: 924px;
+	color: $lite-gray-color;
+	font-size: 14px;
+	font-family: $poppins;
+	line-height: 24px;
+}
+
+@keyframes animateText{
+	0%{
+		transform: translateY(-50%);
+		opacity: 0;
+	}
+	100%{
+		transform: translateY(0%);
+		opacity: 1;
+	}
 }

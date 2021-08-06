@@ -8,6 +8,10 @@
 	align-items: center;
 }
 
+.main-footer{
+	padding: 58px 0 20px 0;
+}
+
 .footer-text{
 	font-weight: 300;
 	font-family: $poppins;
@@ -44,6 +48,10 @@
 	line-height: 33px;
 	text-transform: uppercase;
 	position: relative;
+}
+
+.nav-footer, .contact-footer{
+	margin-top: 50px;
 }
 
 .bottom-footer{

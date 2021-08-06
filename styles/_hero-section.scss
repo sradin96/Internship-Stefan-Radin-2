@@ -2,6 +2,7 @@
 	height: 773px;
 	width: 100%;
 	margin-top: 158px;
+	position: relative;
 }
 
 .slider-item{
@@ -30,7 +31,12 @@
 }
 
 .slick-dots {
-	transform: translateY(-165%);
+	li{
+		margin: -1px
+	}
+
+	position: absolute;
+	bottom: 27px;
 	li button:before,
 	li.slick-active button:before {
 	  color: transparent;
@@ -44,8 +50,9 @@
 	  border: 1px solid $dark-gray-color;
 	  border-radius: 50%;
 	  display: inline-block;
-	  height: 8px;
-	  width: 8px;
+	  height: 12px;
+	  width: 12px;
+	  margin-left: 3px;
 	}
 	li.slick-active button:before {
 	  background-color: $dark-gray-color;
