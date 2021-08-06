@@ -8,6 +8,23 @@
 	align-items: center;
 }
 
+.story-img{
+	position: relative;
+	z-index: 5;
+}
+
+.story-img::after{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 439px;
+	height: 486px;
+	border: 2px solid $gold;
+	bottom: -18px;
+	right: -20px;
+	z-index: -1;
+}
+
 .story-text{
 	margin-left: 108px;
 	margin-top: 13px;

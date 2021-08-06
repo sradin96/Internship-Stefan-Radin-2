@@ -57,18 +57,11 @@
 	opacity: .9;
 }
 
-.active-state{
+.active-span-state{
 	opacity: 1;
-}
-
-.active-state:after{
-	content: "";
-	position: absolute;
-	bottom: -10px;
-	left: 0;
-	width: 120px;
-	height: 4px;
-	background: $white;
+	text-decoration: underline;
+	text-underline-offset: 10px;
+	text-decoration-thickness: 5px;
 }
 
 .tab-text{
@@ -77,4 +70,21 @@
 	font-size: 14px;
 	line-height: 24px;
 	font-weight: 400;
+	display: none;
+}
+
+.active-text{
+	display: block;
+	animation: animateTextTab .8s ease-in-out;
+}
+
+@keyframes animateTextTab{
+	0%{
+		transform: translateX(-50%);
+		opacity: 0;
+	}
+	100%{
+		transform: translateX(0%);
+		opacity: 1;
+	}
 }

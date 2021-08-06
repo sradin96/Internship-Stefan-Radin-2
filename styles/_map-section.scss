@@ -1,10 +1,23 @@
 .map-section{
-	height: 540px;
+	position: relative;
+	height: 960px;
+	display: flex;
+	align-items: center;
+	overflow: hidden;
 }
 
 .map-contain{
 	display: flex;
 	align-items: center;
+}
+
+.map-img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	width: 1920px;
+	height: 480px;
 }
 
 .top-head{
@@ -58,7 +71,6 @@
 	background: $white;
 	height: 540px;
 	width: 540px;
-	transform: translateY(50%);
 	box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
 	padding: 80px 100px;
 }
@@ -67,9 +79,11 @@
 	color: $white;
 }
 
+.dolor-socials{
+	display: flex;
+}
+
 .map-social{
 	background: $dark-bg;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }

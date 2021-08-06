@@ -25,6 +25,11 @@ $('.question-link').click(function () {
 	$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
 });
 
+$('.tab').click(function () {
+	$('.tab-text').removeClass('active-text').eq($(this).index('.tab')).addClass('active-text');
+	$('.tab').removeClass('active-span-state').eq($(this).index('.tab')).addClass('active-span-state');
+});
+
 $(document).ready(function(){
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
@@ -47,3 +52,7 @@ $(document).ready(function(){
 		  }
 	})
 })
+
+$(document).ready(function() {
+	$(".single-image").fancybox();	
+});
