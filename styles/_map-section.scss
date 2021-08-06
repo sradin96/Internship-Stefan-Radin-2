@@ -140,10 +140,10 @@
 	color: #121b23;
 }
 
-.address-social:nth-child(1), .address-social:nth-child(5){
+.address-social--down {
 	transform: translateY(100%);
 }
 
-.address-social:nth-child(4){
+.address-social--up {
 	transform: translateY(-100%);
 }

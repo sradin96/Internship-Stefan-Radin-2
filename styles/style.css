@@ -583,15 +583,12 @@ li {
 
 .show-text {
   background: #f5f5f5;
-  padding: 40px 0px;
-  min-width: 100vw;
-  margin: 50px 0 50px -70px;
-  display: none;
+  padding: 0;
   position: relative;
   overflow: hidden;
   max-height: 0;
-  -webkit-transition: max-height .5s ease;
-  transition: max-height .5s ease;
+  -webkit-transition: all 600ms ease-in;
+  transition: all 600ms ease-in;
 }
 
 .show-text::before {
@@ -608,11 +605,9 @@ li {
 }
 
 .show-text.active-state {
-  display: block;
+  padding: 40px 0;
   padding-left: 190px;
   max-height: 1000px;
-  -webkit-transition: max-height 1s ease-in-out;
-  transition: max-height 1s ease-in-out;
 }
 
 .angle-right {
@@ -943,12 +938,12 @@ li {
   color: #121b23;
 }
 
-.address-social:nth-child(1), .address-social:nth-child(5) {
+.address-social--down {
   -webkit-transform: translateY(100%);
           transform: translateY(100%);
 }
 
-.address-social:nth-child(4) {
+.address-social--up {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%);
 }
@@ -958,7 +953,7 @@ li {
   display: -ms-flexbox;
   display: flex;
   background: #f1f1f1f1;
-  margin: 50px 0 100px 0;
+  margin-bottom: 100px;
 }
 
 .main-contact-img {

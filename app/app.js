@@ -35,6 +35,7 @@ $('.question-link').click(function () {
 $('.tab').click(function () {
 	$('.tab-text').removeClass('active-text').eq($(this).index('.tab')).addClass('active-text');
 	$('.tab').removeClass('active-span-state').eq($(this).index('.tab')).addClass('active-span-state');
+
 });
 
 $(document).ready(function(){
