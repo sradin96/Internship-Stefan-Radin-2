@@ -679,6 +679,7 @@ li {
   line-height: 25px;
   cursor: pointer;
   margin: 0 20px;
+  position: relative;
 }
 
 .text-tab:after {
@@ -698,9 +699,18 @@ li {
 
 .active-span-state {
   opacity: 1;
-  text-decoration: underline;
-  text-underline-offset: 10px;
-  text-decoration-thickness: 5px;
+}
+
+.active-span-state::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 5px;
+  background: #ffffff;
+  bottom: -12px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .tab-text {

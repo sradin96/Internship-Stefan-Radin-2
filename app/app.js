@@ -20,6 +20,10 @@ $('.slider-2').slick({
     touchThreshold: 100
 });
 
+$('.nav-links').click(function () {
+	$('.nav-links').removeClass('active').eq($(this).index('.nav-links')).addClass('active');
+});
+
 $('.question-link').click(function () {
 	$('.fa-angle-right').removeClass('angle-right').eq($(this).index('.question-link')).addClass('angle-right');
 	$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
