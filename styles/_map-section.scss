@@ -81,9 +81,57 @@
 
 .dolor-socials{
 	display: flex;
+	transform: translateY(50%);
+}
+
+.dolor-mail{
+	background: $dark-bg;
 }
 
 .map-social{
-	background: $dark-bg;
 	display: flex;
+	flex-direction: column-reverse;
+	flex-wrap: wrap;
+	height: 180px;
+	width: 270px;
+}
+
+.dolor-mail{
+	width: 180px;
+	height: 180px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.address-social{
+	height: 90px;
+	width: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.gold-bg{
+	background: $dark-gold;
+}
+
+.light-bg{
+	background: $whitesmoke;
+}
+
+.dark-bg{
+	background: $dark-bg;
+}
+
+.fa-linkedin, .fa-twitter{
+	color: #121b23;
+}
+
+.address-social:nth-child(1), .address-social:nth-child(5){
+	transform: translateY(100%);
+}
+
+.address-social:nth-child(4){
+	transform: translateY(-100%);
 }

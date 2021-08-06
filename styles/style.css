@@ -480,7 +480,7 @@ li {
 .testimonials-section {
   background: #181a1b;
   text-align: center;
-  padding: 100px 0;
+  padding: 100px 0 97px 0;
 }
 
 .testimonials-box {
@@ -858,13 +858,80 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transform: translateY(50%);
+          transform: translateY(50%);
+}
+
+.dolor-mail {
+  background: #212121;
 }
 
 .map-social {
-  background: #212121;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 180px;
+  width: 270px;
+}
+
+.dolor-mail {
+  width: 180px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.address-social {
+  height: 90px;
+  width: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gold-bg {
+  background: #b8976a;
+}
+
+.light-bg {
+  background: #e9e9e9;
+}
+
+.dark-bg {
+  background: #212121;
+}
+
+.fa-linkedin, .fa-twitter {
+  color: #121b23;
+}
+
+.address-social:nth-child(1), .address-social:nth-child(5) {
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+}
+
+.address-social:nth-child(4) {
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 .contact-section {
