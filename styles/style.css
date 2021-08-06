@@ -588,6 +588,23 @@ li {
   max-height: 0;
   -webkit-transition: all 600ms ease-in;
   transition: all 600ms ease-in;
+  position: relative;
+}
+
+.show-text:before {
+  content: "";
+  position: absolute;
+  background: #212121;
+  left: 0;
+  top: 0;
+}
+
+.show-text::after {
+  content: "";
+  position: absolute;
+  background: #212121;
+  right: 0;
+  top: 0;
 }
 
 .show-text::before {

@@ -41,6 +41,23 @@
   overflow: hidden;
   max-height: 0;
   transition: all 600ms ease-in;
+  position: relative;
+}
+
+.show-text:before{
+	content: "";
+	position: absolute;
+	background: $dark-bg;
+	left: 0;
+	top: 0;
+}
+
+.show-text::after{
+	content: "";
+	position: absolute;
+	background: $dark-bg;
+	right: 0;
+	top: 0;
 }
 
 .show-text::before{
