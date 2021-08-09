@@ -385,7 +385,7 @@ li {
 
 .story-section {
   background: #f3f4f5;
-  padding: 150px 0 160px 0;
+  padding: 150px 0 150px 0;
 }
 
 .story {
@@ -458,7 +458,7 @@ li {
 
 .reno-img {
   width: 1008px;
-  height: 541px;
+  height: 544px;
 }
 
 .renovation-box {
@@ -467,10 +467,6 @@ li {
   height: 448px;
   z-index: 10;
   padding: 65px 0 0 40px;
-}
-
-.top-part {
-  margin-top: -10px;
 }
 
 .top-box {
@@ -482,7 +478,6 @@ li {
 
 .bottom-part {
   float: right;
-  margin-top: 9px;
 }
 
 .bottom-box {
