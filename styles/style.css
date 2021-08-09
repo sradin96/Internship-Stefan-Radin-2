@@ -217,6 +217,8 @@ li {
   width: 100%;
   margin-top: 158px;
   position: relative;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .slider-item {
@@ -285,7 +287,7 @@ li {
 
 .offers-section {
   text-align: center;
-  padding: 70px 0 130px 0;
+  padding: 60px 0 130px 0;
 }
 
 .offers-header {
@@ -295,13 +297,14 @@ li {
   font-weight: 600;
   color: #333333;
   position: relative;
+  margin-top: 10px;
 }
 
 .offers-text {
   font-size: 16px;
   font-family: "Merriweather", serif;
   color: #666666;
-  margin: 34px 0 110px 0;
+  margin: 34px 0 100px 0;
 }
 
 .offers-box {
@@ -318,7 +321,7 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 0 8px;
+  margin: 10px 8px;
   height: 200px;
   width: 260px;
   -webkit-transition: .3s;
@@ -676,6 +679,8 @@ li {
 .worker-img {
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .choose-header {
@@ -687,9 +692,9 @@ li {
 }
 
 .choose-text {
-  padding: 0px 0px 50px 80px;
+  padding: 0px 0px 50px 85px;
   text-align: left;
-  width: 738px;
+  max-width: 638px;
 }
 
 .text-tab {
@@ -790,10 +795,15 @@ li {
   margin-bottom: 65px;
 }
 
-.gallery-img {
-  height: 302px;
-  width: 290px;
+.gallery-img-box {
+  height: 311px;
+  width: 321px;
   margin: 10px 0;
+}
+
+.gallery-img {
+  width: 100%;
+  height: 100%;
 }
 
 .no-padding {
@@ -1005,6 +1015,8 @@ li {
 .contact-img {
   width: 100%;
   height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 
 .contact-text {

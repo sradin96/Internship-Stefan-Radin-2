@@ -1,6 +1,6 @@
 .offers-section{
 	text-align: center;
-	padding: 70px 0 130px 0;
+	padding: 60px 0 130px 0;
 }
 
 .offers-header{
@@ -10,13 +10,14 @@
 	font-weight: 600;
 	color: $dark-gray-color;
 	position: relative;	
+	margin-top: 10px;
 }
 
 .offers-text{
 	font-size: 16px;
 	font-family: $merriweather;
 	color: $lite-gray-color;
-	margin: 34px 0 110px 0; 
+	margin: 34px 0 100px 0; 
 }
 
 .offers-box{
@@ -24,7 +25,7 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	margin: 0 8px;
+	margin: 10px 8px;
 	height: 200px;
 	width: 260px;
 	transition: .3s;
