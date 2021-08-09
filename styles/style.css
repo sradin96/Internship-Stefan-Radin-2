@@ -799,7 +799,7 @@ li {
 
 .map-section {
   position: relative;
-  height: 840px;
+  height: 850px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -817,6 +817,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   padding-left: 65px;
+  padding-right: 37px;
   margin-top: 80px;
 }
 
@@ -841,7 +842,6 @@ li {
   line-height: 24px;
   text-transform: uppercase;
   letter-spacing: 5.6px;
-  margin-bottom: 5px;
 }
 
 .map-header {
@@ -850,6 +850,7 @@ li {
   text-transform: uppercase;
   color: #212121;
   line-height: 36px;
+  margin-top: 20px;
 }
 
 .map-text {
@@ -860,7 +861,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 30px 0 50px 0;
+  margin: 25px 0 54px 0;
 }
 
 .dolor-text {
@@ -879,7 +880,7 @@ li {
   font-size: 14px;
   line-height: 23px;
   font-weight: 500;
-  padding: 16px 28px;
+  padding: 16px 29px;
 }
 
 .dolor-btn:hover {
@@ -893,7 +894,7 @@ li {
   width: 540px;
   -webkit-box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
           box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
-  padding: 80px 100px;
+  padding: 75px 130px 0 87px;
 }
 
 .dolor-info {
@@ -990,12 +991,12 @@ li {
   display: -ms-flexbox;
   display: flex;
   background: #f1f1f1f1;
-  margin-bottom: 100px;
+  margin-bottom: 85px;
 }
 
 .main-contact-img {
   width: 942px;
-  height: 794px;
+  height: 774px;
 }
 
 .contact-img {
@@ -1004,7 +1005,7 @@ li {
 }
 
 .contact-text {
-  padding: 100px 0 0 110px;
+  padding: 70px 0 0 110px;
 }
 
 .contact-header {
@@ -1053,7 +1054,7 @@ li {
   color: #111111;
   font-weight: 400;
   position: relative;
-  margin: 30px 0 60px 0;
+  margin: 35px 0 60px 0;
 }
 
 .contact-mini-header::before {
@@ -1062,7 +1063,7 @@ li {
   background: #111111;
   height: 2px;
   width: 173px;
-  bottom: -10px;
+  bottom: -15px;
 }
 
 .contact-mini-header::after {
@@ -1071,7 +1072,7 @@ li {
   background: #111111;
   height: 7px;
   width: 60px;
-  bottom: -17px;
+  bottom: -22px;
   left: 0;
 }
 
@@ -1107,13 +1108,14 @@ li {
 .input-submit {
   background: #af943e;
   color: #ffffff;
-  width: 150px;
+  width: 145px;
   height: 50px;
   font-family: "Poppins", sans-serif;
   border: none;
   text-transform: uppercase;
   font-size: 16px;
   float: right;
+  margin-top: 12px;
 }
 
 input:focus, input:hover {
@@ -1178,13 +1180,17 @@ label {
   text-transform: uppercase;
   color: #333333;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
 .clients-text {
   color: #666666;
   font-size: 16px;
   font-family: "Merriweather", serif;
+}
+
+.clients-box {
+  margin-top: 80px;
 }
 
 .clients-images {
@@ -1200,7 +1206,7 @@ label {
 }
 
 .clients-img {
-  margin: 50px 30px;
+  margin: 50px 30px 43px 30px;
 }
 
 .clients-contact-bar {
@@ -1213,7 +1219,7 @@ label {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 30px 95px;
+  padding: 35px 95px;
   background: #af943e;
   -webkit-transform: translateY(50%);
           transform: translateY(50%);
