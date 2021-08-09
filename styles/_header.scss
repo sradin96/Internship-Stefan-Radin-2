@@ -6,7 +6,7 @@
 	z-index: 999;
 	display: block;
 	padding: 8px 0;
-	@media only screen and (max-width: 1080px){
+	@media only screen and (max-width: 1024px){
 		display: none;
 	}
 }
@@ -83,7 +83,7 @@
 .open-menu, .close-menu {
 	display: none;
 
-	@media only screen and(max-width: 1080px){
+	@media only screen and(max-width: 1024px){
 		display: block;
 	}
 }
@@ -94,6 +94,9 @@
 
 .navigation-bar {
 	display: flex;
+	@media only screen and(max-width: 1024px){
+		display: none;
+	}
 }
 
 .nav-lists {

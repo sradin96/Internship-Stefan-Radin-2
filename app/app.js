@@ -52,11 +52,11 @@ $(document).ready(function(){
 		}
 		if (scroll > 60) {
 			$(".bottom").css("transform" , "translateY(-50%)");
-			$(".bottom").css("transition" , "all .2s ease-in");
+			$(".bottom").css("transition" , "all .2s ease-out");
 		  }	
 		  else {
 			  $(".bottom").css("transform" , "translateY(0%)");  	
-			  $(".bottom").css("transition" , "all .2s ease-in");
+			  $(".bottom").css("transition" , "all .2s ease-out");
 		  }
 	})
 })

@@ -52,7 +52,7 @@ li {
   padding: 8px 0;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1024px) {
   .top {
     display: none;
   }
@@ -152,7 +152,7 @@ li {
   display: none;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1024px) {
   .open-menu, .close-menu {
     display: block;
   }
@@ -166,6 +166,12 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  .navigation-bar {
+    display: none;
+  }
 }
 
 .nav-lists {
@@ -576,27 +582,17 @@ li {
 
 .fa-chevron-right {
   color: #b19d60;
-  margin-right: 50px;
+  margin-right: 70px;
 }
 
 .show-text {
   background: #f5f5f5;
   padding: 0;
-  overflow: hidden;
   max-height: 0;
   -webkit-transition: all 600ms ease-in;
   transition: all 600ms ease-in;
+  overflow: hidden;
   position: relative;
-}
-
-.left-right::before {
-  content: "";
-  height: 30px;
-  width: 100px;
-  background: red;
-  position: absolute;
-  left: -50px;
-  top: 20px;
 }
 
 .show-text.active-state {
@@ -628,12 +624,13 @@ li {
 }
 
 .choose-img {
-  width: 791px;
+  width: 781px;
   height: 494px;
 }
 
 .worker-img {
   width: 100%;
+  height: 100%;
 }
 
 .choose-header {
@@ -645,7 +642,7 @@ li {
 }
 
 .choose-text {
-  padding: 50px 80px;
+  padding: 50px 0px 50px 80px;
   text-align: left;
   width: 738px;
 }
@@ -964,7 +961,7 @@ li {
 }
 
 .contact-text {
-  padding: 100px 0 0 100px;
+  padding: 100px 0 0 110px;
 }
 
 .contact-header {
@@ -1029,9 +1026,9 @@ li {
   content: "";
   position: absolute;
   background: #111111;
-  height: 6px;
-  width: 50px;
-  bottom: -16px;
+  height: 7px;
+  width: 60px;
+  bottom: -17px;
   left: 0;
 }
 
@@ -1061,13 +1058,13 @@ li {
   background: transparent;
   border-bottom: 1px solid #000000;
   outline: none;
-  width: 255px;
+  width: 250px;
 }
 
 .input-submit {
   background: #af943e;
   color: #ffffff;
-  width: 160px;
+  width: 150px;
   height: 50px;
   font-family: "Poppins", sans-serif;
   border: none;
@@ -1114,7 +1111,7 @@ label {
 .textarea {
   outline: none;
   background: transparent;
-  width: 530px;
+  width: 520px;
   height: 130px;
   resize: none;
 }
@@ -1247,12 +1244,10 @@ label {
 
 .footer-social-links {
   color: #ffffff;
-  padding: 8px 14px;
+  padding: 6px 12px;
   border: 1px solid #af943e;
   border-radius: 50%;
   display: inline-block;
-  border-width: 1px;
-  font-size: 12px;
   margin-right: 14px;
 }
 
