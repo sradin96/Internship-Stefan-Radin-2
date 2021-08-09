@@ -23,6 +23,10 @@ $dark-text: #262626;
 $cod-gray: #111111;
 $white-gray: #888888;
 
+html{
+	overflow-x: hidden;
+}
+
 
 .container{
 	max-width: 1110px;
