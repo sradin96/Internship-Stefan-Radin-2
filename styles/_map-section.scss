@@ -1,6 +1,6 @@
 .map-section{
 	position: relative;
-	height: 960px;
+	height: 840px;
 	display: flex;
 	align-items: center;
 	overflow: hidden;
@@ -9,7 +9,8 @@
 .map-contain{
 	display: flex;
 	align-items: center;
-	padding-left: 64px;
+	padding-left: 65px;
+	margin-top: 80px;
 }
 
 .map-img{
@@ -18,7 +19,7 @@
 	left: 0;
 	z-index: -1;
 	width: 1920px;
-	height: 480px;
+	height: 460px;
 }
 
 .city-img{
