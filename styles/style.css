@@ -788,7 +788,7 @@ li {
 
 .gallery-section {
   text-align: center;
-  padding: 60px 0;
+  padding: 60px 0 45px 0;
   overflow: hidden;
 }
 
@@ -866,7 +866,7 @@ li {
   text-transform: uppercase;
   color: #212121;
   line-height: 36px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .map-text {
@@ -877,7 +877,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 25px 0 54px 0;
+  margin: 30px 0 54px 0;
 }
 
 .dolor-text {
@@ -1289,7 +1289,7 @@ label {
   color: #888888;
   line-height: 24px;
   font-size: 14px;
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .socials-footer {
@@ -1302,16 +1302,16 @@ label {
 }
 
 .footer-logo {
-  margin-right: 50px;
+  margin-right: 95px;
 }
 
 .asd {
   color: #ffffff;
-  padding: 10px 12px;
+  padding: 12px;
   border: 1px solid #af943e;
   border-radius: 50%;
   display: inline-block;
-  margin-right: 14px;
+  margin-right: 10px;
 }
 
 .asd:hover {
@@ -1326,7 +1326,7 @@ label {
 }
 
 .footer-link {
-  line-height: 35px;
+  line-height: 30px;
 }
 
 .footer-right {
@@ -1353,7 +1353,7 @@ label {
 }
 
 .nav-footer, .contact-footer {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .bottom-footer {
