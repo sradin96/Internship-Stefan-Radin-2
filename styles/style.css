@@ -1172,6 +1172,7 @@ label {
   width: 520px;
   height: 130px;
   resize: none;
+  padding: 10px;
 }
 
 .street-name {
