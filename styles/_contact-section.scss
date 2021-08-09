@@ -155,4 +155,13 @@ label{
 	background: transparent;
 	width: 530px;
 	height: 130px;
+	resize: none;
+}
+
+.street-name{
+	color: $lite-gray-color;
+	font-family: $poppins;
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
 }

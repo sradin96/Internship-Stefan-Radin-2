@@ -11,6 +11,7 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="./styles/style.css">
 	<link rel="icon" href="./images/logo.png">
@@ -254,42 +255,41 @@
 	<section class="gallery-section">
 		<h2 class="gallery-head active">Gallery</h2>
 		<div class="row">
-				<div class="col-2">	
-					<a data-caption="One" class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-1.jpg" alt=""></a>
+				<div class="col-2 no-padding">	
+					<a data-caption="One" class="single-image" href="./images/gallery-1.jpg"><img class="gallery-img" src="./images/gallery-1.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-2.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-2.jpg"><img class="gallery-img" src="./images/gallery-2.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-3.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-3.jpg"><img class="gallery-img" src="./images/gallery-3.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-4.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-4.jpg"><img class="gallery-img" src="./images/gallery-4.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-5.jpg" alt=""></a>
-				</div>
-				<div class="col-2 no-padding">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-6.jpg" alt=""></a>
-				</div>
-	
-				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-7.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-5.jpg"><img class="gallery-img" src="./images/gallery-5.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-8.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-6.jpg"><img class="gallery-img" src="./images/gallery-6.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-9.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-7.jpg"><img class="gallery-img" src="./images/gallery-7.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-10.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-8.jpg"><img class="gallery-img" src="./images/gallery-8.jpg" alt=""></a>
 				</div>
 				<div class="col-2">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-11.jpg" alt=""></a>
+					<a class="single-image" href="./images/gallery-9.jpg"><img class="gallery-img" src="./images/gallery-9.jpg" alt=""></a>
 				</div>
-				<div class="col-2 no-padding">
-					<a class="single-image" href="javascript:;"><img class="gallery-img" src="./images/gallery-12.jpg" alt=""></a>
+				<div class="col-2">
+					<a class="single-image" href="./images/gallery-10.jpg"><img class="gallery-img" src="./images/gallery-10.jpg" alt=""></a>
+				</div>
+				<div class="col-2">
+					<a class="single-image" href="./images/gallery-11.jpg"><img class="gallery-img" src="./images/gallery-11.jpg" alt=""></a>
+				</div>
+				<div class="col-2">
+					<a class="single-image" href="./images/gallery-12.jpg"><img class="gallery-img" src="./images/gallery-12.jpg" alt=""></a>
 				</div>			
 		</div>
 	</section>
@@ -345,7 +345,8 @@
 				<p class="contact-mail-text">Contact us by mail or phone, or fill the form below.</p>
 				<div class="row">
 					<div class="col-6 contact-street">
-						<a class="text-section-info street-info" target="_blank" href="https://maps.google.com/?q=11201 Broklyn New York">Street name Brokoklyn, NY 11201 New York</a>
+						<span class="street-name">Street name</span>
+						<a class="text-section-info street-info" target="_blank" href="https://maps.google.com/?q=11201 Broklyn New York">Brokoklyn, NY 11201 New York</a>
 					</div>
 					<div class="col-6 contact-section-info">
 						<a class="text-section-info" target="_blank" href="mailto:info@insalvo.com" href="javascript:;">leasing@halcyonre.com</a>
@@ -436,6 +437,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 	<script type="text/javascript" src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
 	<script src="https://kit.fontawesome.com/f1be843773.js" crossorigin="anonymous"></script>
 	<script src="./app/app.js"></script>
