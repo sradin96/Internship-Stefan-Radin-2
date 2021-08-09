@@ -20,6 +20,15 @@
 	margin: 34px 0 100px 0; 
 }
 
+.img-box-row{
+	@media only screen and(max-width: 1024px){
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin: 0 10px;
+	}
+}
+
 .offers-box{
 	display: flex;
 	flex-direction: column;
@@ -29,6 +38,10 @@
 	height: 200px;
 	width: 260px;
 	transition: .3s;
+	@media only screen and(max-width: 1024px){
+		width: 200px;
+		height: 160px;
+	}
 }
 
 .offers-img{

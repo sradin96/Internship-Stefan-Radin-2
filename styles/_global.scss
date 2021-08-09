@@ -23,7 +23,7 @@ $dark-text: #262626;
 $cod-gray: #111111;
 $white-gray: #888888;
 
-html{
+body{
 	overflow-x: hidden;
 }
 
@@ -59,4 +59,8 @@ li{
 	background: $gold;
 	bottom: -19px;
 	left: 0;
+}
+
+.main-body{
+	margin-top: 158px;
 }

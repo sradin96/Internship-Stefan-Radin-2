@@ -2,21 +2,17 @@
 	display: flex;
 	background: #f1f1f1f1;
 	margin-bottom: 85px;
+	height: 794px;
 }
 
-.main-contact-img{
-	width: 942px;
-	height: 774px;
-}
-
-.contact-img{
-	width: 100%;
+.contact-img-bg{
+	width: 943px;
 	height: 100%;
-	object-fit: fill;
+	background-repeat: no-repeat;
 }
 
 .contact-text{
-	padding: 70px 0 0 110px
+	padding: 70px 0 0 110px;
 }
 
 .contact-header{
