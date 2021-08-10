@@ -1,6 +1,6 @@
 .story-section{
 	background: #f3f4f5;
-	padding: 150px 0 150px 0;
+	padding: 140px 0 170px 0;
 }
 
 .story{
@@ -11,6 +11,13 @@
 .story-img{
 	position: relative;
 	z-index: 5;
+	width: 100%;
+	height: 100%;
+}
+
+.main-story-img{
+	width: 440px;
+	height: 483px;
 }
 
 .story-img::after{
@@ -20,14 +27,14 @@
 	width: 439px;
 	height: 486px;
 	border: 2px solid $gold;
-	bottom: -18px;
-	right: -20px;
+	bottom: -24px;
+	right: -26px;
 	z-index: -1;
 }
 
 .story-text{
-	margin-left: 108px;
-	margin-top: 13px;
+	margin-left: 111px;
+	margin-top: 16px;
 }
 
 .story-header{

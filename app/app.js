@@ -31,12 +31,11 @@ $('.question-link').click(function () {
 	if(!$('.show-text').hasClass('active-state')){
 		$('.fa-chevron-right').removeClass('angle-right').eq($(this).index('.question-link')).addClass('angle-right');
 		$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
-
-	}else{
+	}
+	else if($('.show-text').hasClass('active-state')){
 		$('.show-text').removeClass('active-state');
 		$('.fa-chevron-right').removeClass('angle-right');
 	}
-		
 });
 
 $('.tab').click(function () {
@@ -52,13 +51,15 @@ $(document).ready(function(){
 		}
   
 		else {
-			$(".top").css({"transform": "translateY(0%)" , "transition": "all .2s ease-out"});  	
+			$(".top").css({"transform": "translateY(0%)"});  	
 		}
 		if (scroll > 60) {
 			$(".bottom").css({"transform": "translateY(-50%)" , "transition": "all .2s ease-out"});
+			$(".navigation").css({"paddingLeft": "30px", "paddingRight": "30px", "transition": "all .2s ease-out"});
 		  }	
 		  else {
-			  $(".bottom").css({"transform": "translateY(0%)" , "transition": "all .2s ease-out"});  	
+			  $(".bottom").css({"transform": "translateY(0%)"});  	
+			  $(".navigation").css({"paddingLeft": "0px", "paddingRight": "0px"});
 		  }
 	})
 })

@@ -1,21 +1,21 @@
 .gallery-section{
 	text-align: center;
-	padding: 60px 0 45px 0;
+	padding: 65px 0 65px 0;
 	overflow: hidden;
 }
 
 .gallery-head{
 	font-family: $poppins;
 	font-size: 36px;
-	line-height: 33px;
+	line-height: 42px;
 	text-transform: uppercase;
 	color: $dark-gray-color;
 	position: relative;
-	margin-bottom: 65px;
+	margin-bottom: 57px;
 }
 
 .gallery-img-box{
-	height: 311px;
+	height: 299px;
 	width: 321px;
 	margin: 10px 0;
 	transition: all .4s ease-out;

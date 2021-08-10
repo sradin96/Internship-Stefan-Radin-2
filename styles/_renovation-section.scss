@@ -1,6 +1,6 @@
 .renovation-section{
 	overflow: hidden;
-	height: 1087px;
+	height: 1085px;
 }
 
 .renovation{
@@ -9,7 +9,7 @@
 }
 
 .reno-img{
-	width: 1008px;
+	width: 999px;
 	height: 544px;
 }
 
@@ -21,12 +21,11 @@
 	padding: 65px 0 0 40px;
 }
 
-
-
 .top-box{
 	background: #1c1c1c;
 	color: $white;
-	transform: translateX(-22%);
+	transform: translateX(-21%);
+	margin-bottom: 20px;
 }
 
 .bottom-part{
@@ -35,8 +34,9 @@
 
 .bottom-box{
 	background: #f3f4f5;
-	transform: translateX(22%);
+	transform: translateX(21%);
 	color: $dark-gray-color;
+	margin-bottom: 5px;
 }
 
 .renovation-head{
