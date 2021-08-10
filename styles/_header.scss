@@ -111,13 +111,31 @@
 .navigation-bar {
 	display: flex;
 	@media only screen and(max-width: 1024px){
-		display: none;
+		text-align: center;
+		position: fixed;
+		display: flex;
+		flex-direction: column;
+		top: 110px;
+		left: 0;
+		width: 100%;
+		background: $white;
+		height: 300px;
+		transform: translateY(-150%);
+		opacity: 0;
+		transition: all .4s ease-out;
 	}
 }
 
+.navigation-bar.show-menu{
+	transform: translateY(0%);
+	opacity: 1;
+}
 
 .nav-lists {
 	margin-left: 32px;
+	@media only screen and(max-width: 1024px){
+		margin: 20px 0;
+	}
 }
 
 .nav-links {

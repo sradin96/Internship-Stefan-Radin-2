@@ -69,3 +69,8 @@ $(document).ready(function(){
 		lastScrollTop = scroll;
 	})
 })
+
+$(".open-menu").click(function () {
+	$(".open-menu").toggleClass("active-menu");
+	$(".navigation-bar").toggleClass("show-menu");
+  });
