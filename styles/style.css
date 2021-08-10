@@ -288,12 +288,12 @@ li {
   .hero-section {
     background-size: contain;
     background-repeat: no-repeat;
-    height: 600px;
+    height: 420px;
   }
 }
 
 .slider-item {
-  padding-top: 239px;
+  padding-top: 139px;
 }
 
 .hero-header {
@@ -305,10 +305,22 @@ li {
   padding-left: 0px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .hero-header {
+    font-size: 32px;
+  }
+}
+
 .hero-text {
   margin: 53px 0 34px 0;
   font-size: 18px;
   font-family: "Merriweather", serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero-text {
+    font-size: 14px;
+  }
 }
 
 .main-btn {
@@ -494,6 +506,7 @@ li {
   z-index: 5;
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 .main-story-img {
@@ -524,8 +537,11 @@ li {
   .story-img::after {
     width: 239px;
     height: 286px;
-    bottom: -24px;
-    right: 156px;
+    bottom: -14px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin-left: 20px;
   }
 }
 
@@ -627,6 +643,12 @@ li {
   background: #181a1b;
   text-align: center;
   padding: 100px 0 97px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .testimonials-section {
+    padding: 50px 0;
+  }
 }
 
 .testimonials-box {

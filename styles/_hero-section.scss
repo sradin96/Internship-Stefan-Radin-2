@@ -5,12 +5,12 @@
 	@media only screen and (max-width: 1024px){
 		background-size: contain;
 		background-repeat: no-repeat;
-		height: 600px;
+		height: 420px;
 	}
 }
 
 .slider-item{
-	padding-top: 239px;
+	padding-top: 139px;
 }
 
 .hero-header{
@@ -20,12 +20,18 @@
 	font-size: 60px;
 	font-weight: 600;
 	padding-left: 0px;
+	@media only screen and(max-width: 1024px){
+		font-size: 32px;
+	}
 }
 
 .hero-text{
 	margin: 53px 0 34px 0;
 	font-size: 18px;
 	font-family: $merriweather;
+	@media only screen and(max-width: 1024px){
+		font-size: 14px;
+	}
 }
 
 .main-btn{

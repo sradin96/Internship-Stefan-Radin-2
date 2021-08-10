@@ -17,6 +17,7 @@
 	z-index: 5;
 	width: 100%;
 	height: 100%;
+	text-align: center;
 }
 
 .main-story-img{
@@ -41,8 +42,10 @@
 	@media only screen and (max-width: 1024px) {
 		width: 239px;
 		height: 286px;
-		bottom: -24px;
-		right: 156px;
+		bottom: -14px;
+		left: 50%;
+		transform: translateX(-50%);
+		margin-left: 20px;
 	}
 }
 
