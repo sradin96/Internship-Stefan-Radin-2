@@ -184,19 +184,16 @@ li {
 
 .logo-img {
   width: 262px;
-  height: 75px;
 }
 
 @media only screen and (max-width: 1024px) {
   .logo-img {
-    width: 232px;
-    height: 65px;
+    width: 222px;
   }
 }
 
 .logo {
   width: 100%;
-  height: 100%;
 }
 
 .navigation {
@@ -251,7 +248,7 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    top: 110px;
+    top: 100px;
     left: 0;
     width: 100%;
     background: #ffffff;
@@ -974,6 +971,10 @@ li {
 @media only screen and (max-width: 1024px) {
   .choose-section {
     text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -984,7 +985,10 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .choose-img {
-    display: none;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
   }
 }
 
@@ -1183,7 +1187,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .map-section {
-    height: 1200px;
+    height: 1000px;
   }
 }
 
@@ -1300,6 +1304,14 @@ li {
   padding: 75px 130px 0 87px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .dolor-sit {
+    padding: 40px;
+    height: 500px;
+    width: 400px;
+  }
+}
+
 .dolor-info {
   color: #ffffff;
 }
@@ -1320,6 +1332,12 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -1332,9 +1350,21 @@ li {
   transition: all 0.3s ease-out;
 }
 
+@media only screen and (max-width: 1024px) {
+  .map-social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
 .dolor-mail {
-  width: 180px;
-  height: 180px;
+  width: 120px;
+  height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1347,8 +1377,8 @@ li {
 }
 
 .address-social {
-  height: 90px;
-  width: 90px;
+  height: 60px;
+  width: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1402,15 +1432,27 @@ li {
   height: 780px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .contact-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+  }
+}
+
 .contact-img-bg {
   width: 943px;
-  height: 100%;
-  background-repeat: no-repeat;
+  height: 780px;
 }
 
 @media only screen and (max-width: 1024px) {
   .contact-img-bg {
-    display: none;
+    background-size: contain;
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
   }
 }
 
@@ -1420,7 +1462,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .contact-text {
-    padding: 40px 10px 0 10px;
+    padding: 40px 10px 20px 10px;
   }
 }
 

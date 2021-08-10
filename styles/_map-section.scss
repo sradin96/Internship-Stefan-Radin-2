@@ -5,7 +5,7 @@
 	align-items: center;
 	overflow: hidden;
 	@media only screen and (max-width: 1024px){
-		height: 1200px;
+		height: 1000px;
 	}
 }
 .map-contain{
@@ -96,6 +96,11 @@
 	width: 540px;
 	box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
 	padding: 75px 130px 0 87px;
+	@media only screen and (max-width: 1024px){
+		padding: 40px;
+		height: 500px;
+		width: 400px;
+	}
 }
 
 .dolor-info {
@@ -113,24 +118,30 @@
 
 .map-social{
 	display: flex;
+	align-items: center;
+	justify-content: center;
 	flex-direction: column-reverse;
 	flex-wrap: wrap;
 	height: 180px;
 	width: 270px;
 	transition: $transition;
+	@media only screen and (max-width: 1024px){
+		flex-direction: row;
+		align-items: flex-start;
+	}
 }
 
 .dolor-mail{
-	width: 180px;
-	height: 180px;
+	width: 120px;
+	height: 120px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 .address-social{
-	height: 90px;
-	width: 90px;
+	height: 60px;
+	width: 60px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
