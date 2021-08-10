@@ -969,11 +969,11 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .choose-section {
-    text-align: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align: center;
   }
 }
 
@@ -1003,6 +1003,7 @@ li {
 @media only screen and (max-width: 1024px) {
   .choose-header {
     font-size: 30px;
+    margin-top: 10px;
   }
 }
 
@@ -1039,7 +1040,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .tab {
-    margin: 0 30px;
+    margin: 0 10px;
   }
 }
 
@@ -1056,7 +1057,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .text-tab:after {
-    width: 400px;
+    width: 280px;
     left: 10px;
   }
 }
@@ -1083,7 +1084,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .active-span-state::after {
-    width: 133px;
+    width: 90px;
   }
 }
 
