@@ -43,23 +43,29 @@ $('.tab').click(function () {
 	$('.tab').removeClass('active-span-state').eq($(this).index('.tab')).addClass('active-span-state');
 });
 
+var lastScrollTop = 0;
 $(document).ready(function(){
 	$(window).scroll(function(){
-		var scroll = $(window).scrollTop();
-		if (scroll > 60) {
+		var scroll = $(this).scrollTop();
+		if (scroll > lastScrollTop) {
 		  	$(".top").css({"transform": "translateY(-100%)" , "transition": "all .2s ease-out"});
 		}
 		else {
 			$(".top").css({"transform": "translateY(0%)"});  	
 		}
-		if (scroll > 60) {
+		if ($(window).width() > 1024 && scroll > lastScrollTop) {
 			$(".bottom").css({"transform": "translateY(-50%)" , "transition": "all .2s ease-out"});
 			$(".navigation").css({"paddingLeft": "30px", "paddingRight": "30px", "transition": "all .2s ease-out"});
-		}	
+		}
+		else if($(window).width() <= 1024 && scroll > lastScrollTop){
+			$(".bottom").css({"transform": "translateY(-10%)" , "transition": "all .2s ease-out"});
+			$(".navigation").css({"paddingLeft": "20px", "paddingRight": "20px", "transition": "all .2s ease-out"});
+		}
 		else {
-			$(".bottom").css({"transform": "translateY(0%)"});  	
+			$(".bottom").css({"transform": "translateY(0%)"});  
 			$(".navigation").css({"paddingLeft": "0px", "paddingRight": "0px"});
 		}
+		lastScrollTop = scroll;
 	})
 })
 

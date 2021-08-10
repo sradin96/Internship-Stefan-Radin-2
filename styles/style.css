@@ -50,6 +50,12 @@ li {
   margin-top: 158px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .main-body {
+    margin-top: 118px;
+  }
+}
+
 .top {
   background: #212121;
   position: fixed;
@@ -72,6 +78,12 @@ li {
   background: #ffffff;
   z-index: 999;
   top: 40px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .bottom {
+    top: 0;
+  }
 }
 
 .top-header {
@@ -165,14 +177,22 @@ li {
   padding: 23px 0 20px 0;
 }
 
-.open-menu, .close-menu {
+.open-menu {
   display: none;
+  color: #333333;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 @media only screen and (max-width: 1024px) {
-  .open-menu, .close-menu {
+  .open-menu {
     display: block;
   }
+}
+
+.open-menu:hover {
+  color: #af943e;
+  cursor: pointer;
 }
 
 .navbar {
