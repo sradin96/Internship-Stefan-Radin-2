@@ -64,6 +64,10 @@ li {
   z-index: 999;
   display: block;
   padding: 8px 0;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -72,18 +76,32 @@ li {
   }
 }
 
+.top.active-top-head {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
 .bottom {
   position: fixed;
   width: 100%;
   background: #ffffff;
   z-index: 999;
   top: 40px;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 @media only screen and (max-width: 1024px) {
   .bottom {
     top: 0;
   }
+}
+
+.bottom.active-bottom-head {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
 }
 
 .top-header {
@@ -162,6 +180,23 @@ li {
   font-size: 12px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
+}
+
+.logo-img {
+  width: 262px;
+  height: 75px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logo-img {
+    width: 232px;
+    height: 65px;
+  }
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
 }
 
 .navigation {
@@ -288,12 +323,18 @@ li {
   .hero-section {
     background-size: contain;
     background-repeat: no-repeat;
-    height: 420px;
+    height: 380px;
   }
 }
 
 .slider-item {
-  padding-top: 139px;
+  padding-top: 239px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .slider-item {
+    padding-top: 139px;
+  }
 }
 
 .hero-header {
@@ -320,12 +361,20 @@ li {
 @media only screen and (max-width: 1024px) {
   .hero-text {
     font-size: 14px;
+    margin: 30px 0 20px 0;
   }
 }
 
 .main-btn {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-btn {
+    padding: 8px 26px;
+    font-size: 12px;
+  }
 }
 
 .main-btn:hover {
@@ -378,6 +427,12 @@ li {
   padding: 60px 0 130px 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  .offers-section {
+    padding: 10px 0 60px 0;
+  }
+}
+
 .offers-header {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -388,11 +443,23 @@ li {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .offers-header {
+    font-size: 30px;
+  }
+}
+
 .offers-text {
   font-size: 16px;
   font-family: "Merriweather", serif;
   color: #666666;
   margin: 34px 0 100px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .offers-text {
+    font-size: 14px;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -445,11 +512,24 @@ li {
   margin-bottom: 22px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .offers-img {
+    height: 37px;
+    width: 38px;
+  }
+}
+
 .box-text {
   color: #ffffff;
   font-size: 18px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+}
+
+@media only screen and (max-width: 1024px) {
+  .box-text {
+    font-size: 14px;
+  }
 }
 
 .offers-links {
@@ -478,6 +558,12 @@ li {
 .story-section {
   background: #f3f4f5;
   padding: 140px 0 170px 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .story-section {
+    padding: 40px 0 30px 0;
+  }
 }
 
 .story {
@@ -559,6 +645,12 @@ li {
   position: relative;
 }
 
+@media only screen and (max-width: 1024px) {
+  .story-header {
+    font-size: 30px;
+  }
+}
+
 .short-story-text {
   font-family: "Merriweather", serif;
   font-size: 16px;
@@ -566,11 +658,23 @@ li {
   margin-top: 36px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .short-story-text {
+    font-size: 14px;
+  }
+}
+
 .long-story-text {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   color: #666666;
   line-height: 24px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .long-story-text {
+    font-size: 12px;
+  }
 }
 
 .renovation-section {
@@ -666,6 +770,12 @@ li {
   position: relative;
 }
 
+@media only screen and (max-width: 1024px) {
+  .testimonials-head {
+    font-size: 30px;
+  }
+}
+
 .testimonials-text {
   font-weight: 300;
   font-family: "Merriweather", serif;
@@ -678,6 +788,7 @@ li {
 @media only screen and (max-width: 1024px) {
   .testimonials-text {
     width: 95%;
+    font-size: 12px;
   }
 }
 
@@ -731,6 +842,12 @@ li {
   letter-spacing: -.8px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .questions-header {
+    font-size: 30px;
+  }
+}
+
 .question-link {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
@@ -738,6 +855,12 @@ li {
   color: #333333;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .question-link {
+    font-size: 18px;
+  }
 }
 
 .question-link:hover {
@@ -819,6 +942,12 @@ li {
   position: relative;
 }
 
+@media only screen and (max-width: 1024px) {
+  .questions-text {
+    font-size: 12px;
+  }
+}
+
 .questions-text::after {
   content: "";
   background: #b19d60;
@@ -868,6 +997,12 @@ li {
   margin-top: 40px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .choose-header {
+    font-size: 30px;
+  }
+}
+
 .choose-text {
   padding: 0px 0px 50px 90px;
   text-align: left;
@@ -877,6 +1012,7 @@ li {
 @media only screen and (max-width: 1024px) {
   .choose-text {
     padding: 20px;
+    font-size: 12px;
   }
 }
 
@@ -987,6 +1123,12 @@ li {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 1024px) {
+  .gallery-section {
+    padding: 30px 0;
+  }
+}
+
 .gallery-head {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
@@ -995,6 +1137,12 @@ li {
   color: #333333;
   position: relative;
   margin-bottom: 57px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .gallery-head {
+    font-size: 30px;
+  }
 }
 
 .gallery-img-box {
@@ -1111,6 +1259,12 @@ li {
   line-height: 24px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .dolor-text {
+    font-size: 12px;
+  }
+}
+
 .dolor-btn {
   background: transparent;
   border: 2px solid #212121;
@@ -1123,6 +1277,13 @@ li {
   padding: 16px 29px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .dolor-btn {
+    font-size: 12px;
+    padding: 12px 25px;
+  }
 }
 
 .dolor-btn:hover {
@@ -1247,8 +1408,20 @@ li {
   background-repeat: no-repeat;
 }
 
+@media only screen and (max-width: 1024px) {
+  .contact-img-bg {
+    display: none;
+  }
+}
+
 .contact-text {
   padding: 70px 0 0 110px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-text {
+    padding: 40px 10px 0 10px;
+  }
 }
 
 .contact-header {
@@ -1350,6 +1523,12 @@ li {
   width: 250px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .enter-input {
+    width: 160px;
+  }
+}
+
 .input-submit {
   background: #af943e;
   color: #ffffff;
@@ -1363,6 +1542,12 @@ li {
   margin-top: 15px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .input-submit {
+    float: left;
+  }
 }
 
 input:focus, input:hover {
@@ -1407,6 +1592,12 @@ label {
   padding: 10px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .textarea {
+    width: 340px;
+  }
+}
+
 .street-name {
   color: #666666;
   font-family: "Poppins", sans-serif;
@@ -1429,14 +1620,32 @@ label {
   margin-bottom: 35px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .clients-head {
+    font-size: 30px;
+  }
+}
+
 .clients-text {
   color: #666666;
   font-size: 16px;
   font-family: "Merriweather", serif;
 }
 
+@media only screen and (max-width: 1024px) {
+  .clients-text {
+    font-size: 14px;
+  }
+}
+
 .clients-box {
   margin-top: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .clients-box {
+    margin-top: 50px;
+  }
 }
 
 .clients-images {
@@ -1448,8 +1657,25 @@ label {
           align-items: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  .clients-images {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .clients-img {
   margin: 50px 30px 42px 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .clients-img {
+    margin: 20px 30px 10px 30px;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .clients-contact-bar {
@@ -1489,6 +1715,7 @@ label {
 @media only screen and (max-width: 1024px) {
   .clients-contact-text {
     margin-bottom: 20px;
+    font-size: 14px;
   }
 }
 
@@ -1504,6 +1731,12 @@ label {
   transition: all 0.3s ease-out;
 }
 
+@media only screen and (max-width: 1024px) {
+  .clients-btn {
+    font-size: 12px;
+  }
+}
+
 .clients-btn:hover {
   color: #ffffff;
   border: 1px solid #ffffff;
@@ -1515,13 +1748,29 @@ label {
   padding: 100px 0 80px 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  .top-footer {
+    padding: 50px 0 10px 0;
+  }
+}
+
 .row-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .row-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 900px;
+  }
 }
 
 .main-footer {
@@ -1548,6 +1797,16 @@ label {
 
 .footer-logo {
   margin-right: 95px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-logo {
+    margin-right: 0;
+  }
+}
+
+.footer-img {
+  width: 220px;
 }
 
 .asd {
@@ -1619,5 +1878,11 @@ label {
   font-size: 14px;
   font-weight: 300;
   margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .copyright {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

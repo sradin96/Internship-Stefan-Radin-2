@@ -9,10 +9,16 @@
 	width: 943px;
 	height: 100%;
 	background-repeat: no-repeat;
-}
+	@media only screen and(max-width: 1024px){
+		display: none;	
+	}
+}	
 
 .contact-text{
 	padding: 70px 0 0 110px;
+	@media only screen and(max-width: 1024px){
+		padding: 40px 10px 0 10px;
+	}
 }
 
 .contact-header{
@@ -101,6 +107,9 @@
 	border-bottom: 1px solid #000000;
 	outline: none;
 	width: 250px;
+	@media only screen and(max-width: 1024px){
+		width: 160px;
+	}
 }
 
 .input-submit{
@@ -115,6 +124,9 @@
 	float: right;
 	margin-top: 15px;
 	transition: $transition;
+	@media only screen and(max-width: 1024px){
+		float: left;
+	}
 }
 
 input:focus, input:hover{
@@ -157,6 +169,9 @@ label{
 	height: 130px;
 	resize: none;
 	padding: 10px;
+	@media only screen and(max-width: 1024px){
+		width: 340px;
+	}
 }
 
 .street-name{

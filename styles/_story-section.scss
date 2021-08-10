@@ -1,6 +1,9 @@
 .story-section{
 	background: #f3f4f5;
 	padding: 140px 0 170px 0;
+	@media only screen and (max-width: 1024px){
+		padding: 40px 0 30px 0;
+	}
 }
 
 .story{
@@ -61,6 +64,9 @@
 	font-family: $poppins;
 	margin-top: 52px;
 	position: relative;
+	@media only screen and (max-width: 1024px){
+		font-size: 30px;
+	}
 }
 
 .short-story-text{
@@ -68,6 +74,9 @@
 	font-size: 16px;
 	color: $lite-gray-color;
 	margin-top: 36px;
+	@media only screen and (max-width: 1024px){
+		font-size: 14px;
+	}
 }
 
 .long-story-text{
@@ -75,4 +84,7 @@
 	font-size: 14px;
 	color: $lite-gray-color;
 	line-height: 24px;
+	@media only screen and (max-width: 1024px){
+		font-size: 12px;
+	}
 }

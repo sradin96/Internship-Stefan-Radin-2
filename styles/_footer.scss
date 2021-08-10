@@ -1,11 +1,18 @@
 .top-footer{
 	background: #181a1b;
 	padding: 100px 0 80px 0;
+	@media only screen and(max-width: 1024px){
+		padding: 50px 0 10px 0;
+	}
 }
 
 .row-footer{
 	display: flex;
-	align-items: center;
+	@media only screen and(max-width: 1024px){
+		display: flex;
+		flex-direction: column;
+		width: 900px;
+	}
 }
 
 .main-footer{
@@ -27,6 +34,13 @@
 
 .footer-logo{
 	margin-right: 95px;
+	@media only screen and(max-width: 1024px){
+		margin-right: 0;
+	}
+}
+
+.footer-img{
+	width: 220px;
 }
 
 .asd{
@@ -96,4 +110,7 @@
 	font-size: 14px;
 	font-weight: 300;
 	margin: 0;
+	@media only screen and(max-width: 1024px){
+		font-size: 12px;
+	}
 }

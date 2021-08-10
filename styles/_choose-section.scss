@@ -23,6 +23,9 @@
 	line-height: 48px;
 	margin-bottom: 55px;
 	margin-top: 40px;
+	@media only screen and (max-width: 1024px){
+		font-size: 30px;
+	}
 }
 
 .choose-text{
@@ -31,6 +34,7 @@
 	max-width: 638px;
 	@media only screen and (max-width: 1024px){
 		padding: 20px;
+		font-size: 12px;
 	}
 }
 

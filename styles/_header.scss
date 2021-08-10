@@ -6,9 +6,15 @@
 	z-index: 999;
 	display: block;
 	padding: 8px 0;
+	transition: all .2s ease-out;
+	transform: translateY(-100%);
 	@media only screen and (max-width: 1024px){
 		display: none;
 	}
+}
+
+.top.active-top-head{
+	transform: translateY(0%);
 }
 
 .bottom {
@@ -17,9 +23,15 @@
 	background: $white;
 	z-index: 999;
 	top: 40px;
+	transition: all .2s ease-out;
+	transform: translateY(-50%);
 	@media only screen and (max-width: 1024px){
 		top: 0;
 	}
+}
+
+.bottom.active-bottom-head{
+	transform: translateY(0%);
 }
 
 .top-header {
@@ -80,6 +92,20 @@
 	font-size: 12px;
 	font-family: $raleway;
 	font-weight: 400;
+}
+
+.logo-img{
+	width: 262px;
+	height: 75px;
+	@media only screen and (max-width: 1024px){
+		width: 232px;
+		height: 65px;
+	}
+}
+
+.logo{
+	width: 100%;
+	height: 100%;
 }
 
 .navigation {

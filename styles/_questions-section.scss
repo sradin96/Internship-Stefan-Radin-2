@@ -13,6 +13,9 @@
     margin-bottom: 75px;
     margin-top: 7px;
 	letter-spacing: -.8px;
+	@media only screen and (max-width: 1024px){
+		font-size: 30px;
+	}
 }
 
 .question-link {
@@ -21,6 +24,9 @@
   font-weight: 400;
   color: $dark-gray-color;
   transition: $transition;
+  @media only screen and(max-width: 1024px){
+	font-size: 18px;
+}
 }
 
 .question-link:hover {
@@ -90,6 +96,9 @@
 	line-height: 24px;
 	padding: 45px 0 45px 90px;
 	position: relative;
+	@media only screen and(max-width: 1024px){
+		font-size: 12px;
+	}
 }
 
 .questions-text::after{
