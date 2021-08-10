@@ -69,7 +69,3 @@ $(document).ready(function(){
 		lastScrollTop = scroll;
 	})
 })
-
-$(document).ready(function() {
-	$("a.single-image").fancybox();	
-});
