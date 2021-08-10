@@ -23,6 +23,10 @@
 	font-family: $merriweather;
 }
 
+.main-btn{
+	transition: $transition;
+}
+
 .main-btn:hover{
 	color: $gold;
 	background: transparent;

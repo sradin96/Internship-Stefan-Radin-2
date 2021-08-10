@@ -57,11 +57,11 @@
 	text-transform: uppercase;
 	font-family: $poppins;
 	padding: 12px 25px;
+	transition: $transition;
 }
 
 .clients-btn:hover{
 	color: $white;
 	border: 1px solid $white;
 	background: transparent;
-	transition: .2s ease-in;
 }

@@ -63,6 +63,10 @@
 	align-items: center;
 }
 
+.offers-box{
+	transition: $transition;
+}
+
 .offers-box:hover{
 	cursor: pointer;
 	opacity: .9;

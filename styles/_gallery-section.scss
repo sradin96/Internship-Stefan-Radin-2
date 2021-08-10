@@ -18,6 +18,11 @@
 	height: 311px;
 	width: 321px;
 	margin: 10px 0;
+	transition: all .4s ease-out;
+}
+
+.gallery-img-box:hover{
+	opacity: 0.9;
 }
 
 .gallery-img{

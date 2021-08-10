@@ -60,6 +60,14 @@
 	margin-left: 22px;
 }
 
+.socials-link{
+	transition: $transition;
+}
+
+.phone-number{
+	transition: $transition;
+}
+
 .follow-us, .socials-link {
 	color: $white;
 	transition: .2s;
@@ -110,6 +118,7 @@
 	color: $dark-gray-color;
 	position: relative;
 	transition: .2s;
+	transition: $transition;
 }
 
 .nav-links:hover, .socials-link:hover, .phone-number:hover, .email-address:hover{

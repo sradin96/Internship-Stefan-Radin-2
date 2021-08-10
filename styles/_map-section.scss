@@ -5,7 +5,6 @@
 	align-items: center;
 	overflow: hidden;
 }
-
 .map-contain{
 	display: flex;
 	align-items: center;
@@ -68,7 +67,8 @@
 	font-size: 14px;
 	line-height: 23px;
 	font-weight: 500;
-	padding: 16px 29px
+	padding: 16px 29px;
+	transition: $transition;
 }
 
 .dolor-btn:hover{
@@ -103,6 +103,7 @@
 	flex-wrap: wrap;
 	height: 180px;
 	width: 270px;
+	transition: $transition;
 }
 
 .dolor-mail{
@@ -119,9 +120,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	transition: $transition;
 }
 
-.map-socials:hover, .address-social:hover{
+.map-social:hover, .address-social:hover{
 	opacity: .9;
 	cursor: pointer;
 }

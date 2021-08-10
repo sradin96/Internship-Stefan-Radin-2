@@ -112,6 +112,7 @@
 	font-size: 16px;
 	float: right;
 	margin-top: 12px;
+	transition: $transition;
 }
 
 input:focus, input:hover{
@@ -131,7 +132,6 @@ label{
 	color: $gold;
 	border: 1px solid $gold;
 	background: transparent;
-	transition: .2s ease-in;
 }
 
 .form-name{

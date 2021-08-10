@@ -38,7 +38,7 @@
 	cursor: pointer;
 	margin: 0 50px;
 	position: relative;
-	transition: .1s;
+	transition: $transition;
 }
 
 .text-tab:after{
