@@ -25,7 +25,8 @@
 .clients-images{
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	@media only screen and (max-width: 1024px){
+	}
 }
 
 .clients-img{
@@ -39,6 +40,10 @@
 	padding: 35px 93px;
 	background: $gold;
 	transform: translateY(50%);
+	@media only screen and (max-width: 1024px){
+		flex-direction: column;
+		padding: 20px;
+	}
 }
 
 .clients-contact-text{
@@ -47,6 +52,9 @@
 	font-weight: 300;
 	color: $white;
 	margin-bottom: 0;
+	@media only screen and (max-width: 1024px){
+		margin-bottom: 20px;
+	}
 }
 
 .clients-btn{

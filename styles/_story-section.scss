@@ -6,6 +6,10 @@
 .story{
 	display: flex;
 	align-items: center;
+	@media only screen and (max-width: 1024px) {
+		display: flex;
+		flex-direction: column;
+	}
 }
 
 .story-img{
@@ -18,6 +22,10 @@
 .main-story-img{
 	width: 440px;
 	height: 483px;
+	@media only screen and (max-width: 1024px) {
+		width: 240px;
+		height: 283px;
+	}
 }
 
 .story-img::after{
@@ -30,6 +38,12 @@
 	bottom: -24px;
 	right: -26px;
 	z-index: -1;
+	@media only screen and (max-width: 1024px) {
+		width: 239px;
+		height: 286px;
+		bottom: -24px;
+		right: 156px;
+	}
 }
 
 .story-text{

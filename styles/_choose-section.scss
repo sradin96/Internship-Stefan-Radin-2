@@ -3,11 +3,17 @@
 	padding: 0px 0;
 	display: flex;
 	align-items: center;
+	@media only screen and (max-width: 1024px){
+		text-align: center;
+	}
 }
 
 .choose-img{
 	width: 779px;
 	height: 489px;
+	@media only screen and (max-width: 1024px){
+		display: none;
+	}
 }
 
 .choose-header{
@@ -23,6 +29,9 @@
 	padding: 0px 0px 50px 90px;
 	text-align: left;
 	max-width: 638px;
+	@media only screen and (max-width: 1024px){
+		padding: 20px;
+	}
 }
 
 .text-tab{
@@ -40,6 +49,9 @@
 	margin: 0 50px;
 	position: relative;
 	transition: $transition;
+	@media only screen and (max-width: 1024px){
+		margin: 0 30px;
+	}
 }
 .text-tab:after{
 	content: "";
@@ -50,6 +62,10 @@
 	height: 2px;
 	background: $white;
 	opacity: .5;
+	@media only screen and (max-width: 1024px){
+		width: 400px;
+		left: 10px;
+	}
 }
 
 .tab:hover{
@@ -69,6 +85,9 @@
 		bottom: -12px;
 		left: 50%;
 		transform: translateX(-50%);
+		@media only screen and (max-width: 1024px){
+			width: 133px;
+		}
 }
 
 .tab-text{

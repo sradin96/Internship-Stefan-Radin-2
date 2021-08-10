@@ -19,6 +19,10 @@
 	width: 321px;
 	margin: 10px 0;
 	transition: all .4s ease-out;
+	@media only screen and (max-width: 1024px){
+		height: 199px;
+		width: 221px;
+	}
 }
 
 .gallery-img-box:hover{
