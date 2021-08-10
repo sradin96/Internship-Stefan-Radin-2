@@ -49,19 +49,15 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var scroll = $(this).scrollTop();
 		if (scroll > lastScrollTop) {
-		  	//$(".top").css({"transform": "translateY(-100%)" , "transition": "all .2s ease-out"});
 			$(".top").removeClass('active-top-head');	
 		}
 		else {
-			//$(".top").css({"transform": "translateY(0%)"}); 
 			$(".top").addClass('active-top-head');	
 		}
 		if ($(window).width() > 1024 && scroll > lastScrollTop) {
-			//$(".bottom").css({"transform": "translateY(-50%)" , "transition": "all .2s ease-out"});
 			$(".bottom").removeClass('active-bottom-head');
 		}
 		else {
-			//$(".bottom").css({"transform": "translateY(0%)"});  
 			$(".bottom").addClass('active-bottom-head');
 		}
 		lastScrollTop = scroll;
