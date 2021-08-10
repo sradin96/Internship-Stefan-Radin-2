@@ -1,6 +1,6 @@
 .top-footer{
 	background: #181a1b;
-	padding: 80px 0;
+	padding: 100px 0 80px 0;
 }
 
 .row-footer{
@@ -31,12 +31,16 @@
 
 .asd{
 	color: $white;
-	padding: 12px;
+	display: inline-block;
+	transition: $transition;
+}
+
+.footer-list-social{
 	border: 1px solid $gold;
 	border-radius: 50%;
-	display: inline-block;
-	margin-right: 10px;
-	transition: $transition;
+	padding: 4px 12px;
+	margin-right: 8px;
+	margin-top: 8px;
 }
 
 .asd:hover{
@@ -46,11 +50,11 @@
 .footer-links{
 	font-family: $poppins;
 	color: #888888;
-	transition: .2s;
+	transition: $transition;
 }
 
 .footer-link{
-	line-height: 30px;
+	line-height: 33px;
 }
 
 .footer-right{

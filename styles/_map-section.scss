@@ -1,6 +1,6 @@
 .map-section{
 	position: relative;
-	height: 850px;
+	height: 845px;
 	display: flex;
 	align-items: center;
 	overflow: hidden;
@@ -42,7 +42,8 @@
 	text-transform: uppercase;
 	color: $dark-bg;
 	line-height: 36px;
-	margin-top: 10px;
+	margin-top: 15px;
+	letter-spacing: 2.2px;
 }
 
 .map-text{

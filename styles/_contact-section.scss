@@ -2,7 +2,7 @@
 	display: flex;
 	background: #f1f1f1f1;
 	margin-bottom: 85px;
-	height: 794px;
+	height: 780px;
 }
 
 .contact-img-bg{
@@ -37,12 +37,14 @@
 	display: flex;
 	flex-direction: column;
 	width: 150px;
-	margin-right: 100px;
+	margin-right: 120px;
+	margin-top: 10px;
 }
 
 .contact-section-info{
 	display: flex;
 	flex-direction: column;
+	margin-top: 10px;
 }
 
 .contact-mini-header{
@@ -51,7 +53,7 @@
 	color: $cod-gray;
 	font-weight: 400;
 	position: relative;
-	margin: 35px 0 60px 0;
+	margin: 30px 0 55px 0;
 }
 
 .contact-mini-header::before{
@@ -111,7 +113,7 @@
 	text-transform: uppercase;
 	font-size: 16px;
 	float: right;
-	margin-top: 12px;
+	margin-top: 15px;
 	transition: $transition;
 }
 

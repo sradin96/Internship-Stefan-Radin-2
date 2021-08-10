@@ -47,20 +47,19 @@ $(document).ready(function(){
 	$(window).scroll(function(){
 		var scroll = $(window).scrollTop();
 		if (scroll > 60) {
-		  $(".top").css({"transform": "translateY(-100%)" , "transition": "all .2s ease-out"});
+		  	$(".top").css({"transform": "translateY(-100%)" , "transition": "all .2s ease-out"});
 		}
-  
 		else {
 			$(".top").css({"transform": "translateY(0%)"});  	
 		}
 		if (scroll > 60) {
 			$(".bottom").css({"transform": "translateY(-50%)" , "transition": "all .2s ease-out"});
 			$(".navigation").css({"paddingLeft": "30px", "paddingRight": "30px", "transition": "all .2s ease-out"});
-		  }	
-		  else {
-			  $(".bottom").css({"transform": "translateY(0%)"});  	
-			  $(".navigation").css({"paddingLeft": "0px", "paddingRight": "0px"});
-		  }
+		}	
+		else {
+			$(".bottom").css({"transform": "translateY(0%)"});  	
+			$(".navigation").css({"paddingLeft": "0px", "paddingRight": "0px"});
+		}
 	})
 })
 
