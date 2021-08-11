@@ -1495,6 +1495,8 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1527,7 +1529,7 @@ li {
   }
 }
 
-.map-social:hover, .address-social:hover {
+.dolor-mail:hover, .address-social:hover {
   opacity: .9;
   cursor: pointer;
 }
