@@ -914,7 +914,7 @@ li {
 }
 
 .questions-section {
-  padding: 50px 0 76px;
+  padding: 50px 0 72px;
   overflow: hidden;
 }
 
@@ -925,7 +925,7 @@ li {
   font-weight: 600;
   color: #333333;
   position: relative;
-  margin-bottom: 75px;
+  margin-bottom: 80px;
   margin-top: 7px;
   letter-spacing: -.8px;
 }
@@ -2100,5 +2100,6 @@ label {
 .footer-navigation {
   margin-top: 18px;
   width: 250px;
+  margin-right: 25px;
 }
 /*# sourceMappingURL=style.css.map */
