@@ -1298,7 +1298,7 @@ li {
 .dolor-sit {
   background: #ffffff;
   height: 540px;
-  width: 540px;
+  width: 530px;
   -webkit-box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
           box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
   padding: 75px 130px 0 87px;
@@ -1332,12 +1332,6 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -1345,7 +1339,6 @@ li {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   height: 180px;
-  width: 270px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -1356,15 +1349,12 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
   }
 }
 
 .dolor-mail {
-  width: 120px;
-  height: 120px;
+  width: 180px;
+  height: 180px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1376,9 +1366,16 @@ li {
           justify-content: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  .dolor-mail {
+    width: 120px;
+    height: 120px;
+  }
+}
+
 .address-social {
-  height: 60px;
-  width: 60px;
+  height: 90px;
+  width: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1390,6 +1387,13 @@ li {
           justify-content: center;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1024px) {
+  .address-social {
+    width: 60px;
+    height: 60px;
+  }
 }
 
 .map-social:hover, .address-social:hover {
