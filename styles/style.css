@@ -1563,6 +1563,7 @@ li {
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
+    margin-bottom: 50px;
   }
 }
 
@@ -1976,6 +1977,12 @@ label {
 
 .footer-img {
   width: 220px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .footer-img {
+    width: 184px;
+  }
 }
 
 .asd {
