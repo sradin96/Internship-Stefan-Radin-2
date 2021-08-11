@@ -36,6 +36,17 @@
 	}
 }
 
+.questions-text::after{
+	content: "";
+	background: #b19d60;
+	position: absolute;
+	height: 65px;
+	width: 4px;
+	top: 0px;
+	left: 3px;
+	transform: translateY(-40%);
+}
+
 .question-span{
   cursor: pointer;
   font-family: $poppins;
@@ -99,19 +110,8 @@
 	font-family: $poppins;
 	line-height: 24px;
 	padding: 45px 0 45px 90px;
-	position: relative;
 	@media only screen and(max-width: 1024px){
 		font-size: 12px;
+		padding-left: 30px;
 	}
-}
-
-.questions-text::after{
-	content: "";
-	background: #b19d60;
-	position: absolute;
-	height: 65px;
-	width: 4px;
-	top: 0px;
-	left: 3px;
-	transform: translateY(-40%);
 }

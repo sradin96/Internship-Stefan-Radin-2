@@ -174,15 +174,12 @@ label{
 .textarea{
 	outline: none;
 	background: transparent;
-	width: 520px;
+	max-width: 520px;
 	height: 130px;
 	resize: none;
 	padding: 10px;
 	@media only screen and(max-width: 1024px){
-		width: 340px;
-	}
-	@media only screen and(max-width: 360px){
-		width: 300px;
+		width: 100%;
 	}
 }
 

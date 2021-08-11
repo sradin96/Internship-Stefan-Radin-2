@@ -1,13 +1,12 @@
 .hero-section{
 	height: 773px;
-	max-width: 100%;
+	width: 100%;
 	position: relative;
 	@media only screen and (max-width: 1024px){
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: right;
 		height: 440px;
-		width: 100%;
 	}
 }
 
