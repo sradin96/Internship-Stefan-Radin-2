@@ -27,23 +27,6 @@ $('.nav-links').click(function () {
 	$('.nav-links').removeClass('active').eq($(this).index('.nav-links')).addClass('active');
 });
 
-// kad se klikne btn sve aktivne klase treba da se obrisu i da se dodeli aktivna klasa kliknutom btn-u
-// arrow treba da odradi animaciju preko css-a a ne preko jquery-a
-// prvo proveri da li kliknuto dugme ima aktivnu klasu, ako ima, obrisi svima aktivne klase
-// ako nema, obrisi svima aktivnu klasu i samo njemu dodeli istu klasu
-// 
-
-/*$('.question-link').click(function () {
-	if(!$('.show-text').hasClass('active-state')){
-		$('.fa-chevron-right').removeClass('angle-right').eq($(this).index('.question-link')).addClass('angle-right');
-		$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
-	}
-	else if($('.show-text').hasClass('active-state')){
-		$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).removeClass('active-state');
-		$('.fa-chevron-right').removeClass('angle-right');
-	}
-});*/
-
 $('.question-link').click(function () {
 	$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
 });
@@ -73,7 +56,10 @@ $(document).ready(function(){
 	})
 })
 
+$(".single-image").fancybox();
+
 $(".open-menu").click(function () {
 	$(".open-menu").toggleClass("active-menu");
 	$(".navigation-bar").toggleClass("show-menu");
-  });
+});
+
