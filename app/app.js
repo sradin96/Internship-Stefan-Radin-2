@@ -28,13 +28,13 @@ $('.nav-links').click(function () {
 });
 
 $('.question-link').on('click', function () {
-	const text = $(this).next();
+	const text = $(this).parent();
 
 	if(text.hasClass('active-state')) {
 		text.removeClass('active-state');
 	} 
 	else {
-		$('.show-text').removeClass('active-state');
+		$('.questions-box').removeClass('active-state');
 		text.addClass('active-state');
 	}
 });
