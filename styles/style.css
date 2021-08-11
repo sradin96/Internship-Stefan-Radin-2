@@ -331,9 +331,10 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .hero-section {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 380px;
+    background-position: right;
+    height: 440px;
     width: 100%;
   }
 }
@@ -810,20 +811,21 @@ li {
 @media only screen and (max-width: 1024px) {
   .renovation-head {
     font-size: 24px;
+    width: 200px;
   }
 }
 
 .renovation-text {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
-  width: 450px;
+  max-width: 450px;
   line-height: 24px;
 }
 
 @media only screen and (max-width: 1024px) {
   .renovation-text {
     font-size: 12px;
-    width: 400px;
+    width: 100%;
   }
 }
 
@@ -1311,6 +1313,7 @@ li {
         -ms-flex-direction: column;
             flex-direction: column;
     margin-top: 0;
+    padding: 0;
   }
 }
 
@@ -1319,8 +1322,15 @@ li {
   top: 0;
   left: 0;
   z-index: -1;
-  width: 1920px;
+  max-width: 1920px;
   height: 460px;
+}
+
+@media only screen and (max-width) {
+  .map-img {
+    width: 100%;
+    background-size: cover;
+  }
 }
 
 .city-img {
@@ -1400,7 +1410,7 @@ li {
 .dolor-sit {
   background: #ffffff;
   height: 540px;
-  width: 530px;
+  max-width: 530px;
   -webkit-box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
           box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
   padding: 75px 130px 0 87px;
@@ -1409,8 +1419,8 @@ li {
 @media only screen and (max-width: 1024px) {
   .dolor-sit {
     padding: 40px;
-    height: 500px;
-    width: 400px;
+    height: 450px;
+    width: 100%;
   }
 }
 
@@ -1773,6 +1783,12 @@ label {
   }
 }
 
+@media only screen and (max-width: 360px) {
+  .textarea {
+    width: 300px;
+  }
+}
+
 .street-name {
   color: #666666;
   font-family: "Poppins", sans-serif;
@@ -1933,14 +1949,11 @@ label {
 
 @media only screen and (max-width: 1024px) {
   .row-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 900px;
+    max-width: 100%;
   }
 }
 
@@ -1960,6 +1973,7 @@ label {
 @media only screen and (max-width: 1024px) {
   .footer-text {
     font-size: 12px;
+    width: 250px;
   }
 }
 
@@ -2018,6 +2032,12 @@ label {
   transition: all 0.3s ease-out;
 }
 
+@media only screen and (max-width: 1024px) {
+  .footer-links {
+    font-size: 14px;
+  }
+}
+
 .footer-link {
   line-height: 33px;
 }
@@ -2043,7 +2063,7 @@ label {
 
 @media only screen and (max-width: 1024px) {
   .footer-span {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
@@ -2077,5 +2097,6 @@ label {
 
 .footer-navigation {
   margin-top: 18px;
+  width: 250px;
 }
 /*# sourceMappingURL=style.css.map */

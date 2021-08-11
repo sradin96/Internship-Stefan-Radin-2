@@ -28,18 +28,13 @@ $('.nav-links').click(function () {
 });
 
 $('.question-link').on('click', function () {
-	// if($('.show-text').hasClass('active-state')){
-	// 	$('.show-text').removeClass('active-state');
-	// }
-	// else if(!$('.show-text').hasClass('active-state')){
-	// 	$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
-	// }
 	const text = $(this).next();
-	$('.show-text').removeClass('active-state');
+
 	if(text.hasClass('active-state')) {
 		text.removeClass('active-state');
 	} 
 	else {
+		$('.show-text').removeClass('active-state');
 		text.addClass('active-state');
 	}
 });

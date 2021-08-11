@@ -9,9 +9,8 @@
 .row-footer{
 	display: flex;
 	@media only screen and(max-width: 1024px){
-		display: flex;
 		flex-direction: column;
-		width: 900px;
+		max-width: 100%;
 	}
 }
 
@@ -28,6 +27,7 @@
 	margin: 20px 0;
 	@media only screen and(max-width: 1024px){
 		font-size: 12px;
+		width: 250px;
 	}
 }
 .socials-footer{
@@ -71,6 +71,9 @@
 	font-family: $poppins;
 	color: #888888;
 	transition: $transition;
+	@media only screen and (max-width: 1024px){
+		font-size: 14px;
+	}
 }
 
 .footer-link{
@@ -95,7 +98,7 @@
 	text-transform: uppercase;
 	position: relative;
 	@media only screen and(max-width: 1024px){
-		font-size: 12px;
+		font-size: 14px;
 	}
 }
 
@@ -126,4 +129,5 @@
 
 .footer-navigation{
 	margin-top: 18px;
+	width: 250px;
 }
