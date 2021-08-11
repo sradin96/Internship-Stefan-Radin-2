@@ -938,6 +938,7 @@ li {
 
 .questions-box {
   margin: 20px 0 0 75px;
+  position: relative;
 }
 
 @media only screen and (max-width: 1024px) {

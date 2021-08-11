@@ -20,10 +20,22 @@
 
 .questions-box {
   margin: 20px 0 0 75px;
+  position: relative;
   @media only screen and (max-width: 1024px){
 		margin: 20px 0 0 10px;	  
   }
 }
+
+// .questions-box.active-state::before{
+// 	content: "";
+// 	position: absolute;
+// 	top: 130px;
+// 	left: 0;
+// 	width: 2px;
+// 	height: 30px;
+// 	background: red;
+// 	z-index: 9999999;
+// }
 
 .fa-chevron-right {
   color: #b19d60;
