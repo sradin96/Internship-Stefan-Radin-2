@@ -13,7 +13,7 @@
 .slider-item{
 	padding-top: 239px;
 	@media only screen and (max-width: 1024px){
-		padding-top: 139px;
+		padding-top: 160px;
 	}
 }
 
@@ -25,7 +25,7 @@
 	font-weight: 600;
 	padding-left: 0px;
 	@media only screen and(max-width: 1024px){
-		font-size: 32px;
+		font-size: 34px;
 	}
 }
 
@@ -83,5 +83,8 @@
 	}
 	li:hover button:before {
 		background-color: $dark-gray-color;
+	}
+	@media only screen and (max-width: 1024px){
+		bottom: 10px;
 	}
 }

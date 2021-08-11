@@ -34,6 +34,10 @@
 	transform: translateY(0%);
 }
 
+.logo.active-bottom-head{
+	width: 100px;
+}
+
 .top-header {
 	display: flex;
 	align-items: center;
@@ -140,7 +144,7 @@
 		position: fixed;
 		display: flex;
 		flex-direction: column;
-		top: 100px;
+		top: 90px;
 		left: 0;
 		width: 100%;
 		background: $white;

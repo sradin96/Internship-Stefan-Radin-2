@@ -27,12 +27,20 @@ $('.nav-links').click(function () {
 	$('.nav-links').removeClass('active').eq($(this).index('.nav-links')).addClass('active');
 });
 
-$('.question-link').click(function () {
-	if($('.show-text').hasClass('active-state')){
-		$('.show-text').removeClass('active-state');
-	}
-	else if(!$('.show-text').hasClass('active-state')){
-		$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
+$('.question-link').on('click', function () {
+	// if($('.show-text').hasClass('active-state')){
+	// 	$('.show-text').removeClass('active-state');
+	// }
+	// else if(!$('.show-text').hasClass('active-state')){
+	// 	$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
+	// }
+	const text = $(this).next();
+	$('.show-text').removeClass('active-state');
+	if(text.hasClass('active-state')) {
+		text.removeClass('active-state');
+	} 
+	else {
+		text.addClass('active-state');
 	}
 });
 
