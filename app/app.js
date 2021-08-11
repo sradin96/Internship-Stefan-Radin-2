@@ -28,7 +28,12 @@ $('.nav-links').click(function () {
 });
 
 $('.question-link').click(function () {
-	$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
+	if($('.show-text').hasClass('active-state')){
+		$('.show-text').removeClass('active-state');
+	}
+	else if(!$('.show-text').hasClass('active-state')){
+		$('.show-text').removeClass('active-state').eq($(this).index('.question-link')).addClass('active-state');
+	}
 });
 
 $('.tab').click(function () {

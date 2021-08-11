@@ -43,9 +43,9 @@
 }
 
 .footer-img{
-	width: 220px;
+	width: 260px;
 	@media only screen and(max-width: 1024px){
-		width: 184px;
+		width: 180px;
 	}
 }
 
@@ -71,9 +71,6 @@
 	font-family: $poppins;
 	color: #888888;
 	transition: $transition;
-	@media only screen and(max-width: 1024px){
-		font-size: 12px;
-	}
 }
 
 .footer-link{
@@ -98,7 +95,7 @@
 	text-transform: uppercase;
 	position: relative;
 	@media only screen and(max-width: 1024px){
-		font-size: 16px;
+		font-size: 12px;
 	}
 }
 
@@ -125,4 +122,8 @@
 	@media only screen and(max-width: 1024px){
 		font-size: 12px;
 	}
+}
+
+.footer-navigation{
+	margin-top: 18px;
 }

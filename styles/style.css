@@ -1976,12 +1976,12 @@ label {
 }
 
 .footer-img {
-  width: 220px;
+  width: 260px;
 }
 
 @media only screen and (max-width: 1024px) {
   .footer-img {
-    width: 184px;
+    width: 180px;
   }
 }
 
@@ -2011,12 +2011,6 @@ label {
   transition: all 0.3s ease-out;
 }
 
-@media only screen and (max-width: 1024px) {
-  .footer-links {
-    font-size: 12px;
-  }
-}
-
 .footer-link {
   line-height: 33px;
 }
@@ -2042,7 +2036,7 @@ label {
 
 @media only screen and (max-width: 1024px) {
   .footer-span {
-    font-size: 16px;
+    font-size: 12px;
   }
 }
 
@@ -2072,5 +2066,9 @@ label {
   .copyright {
     font-size: 12px;
   }
+}
+
+.footer-navigation {
+  margin-top: 18px;
 }
 /*# sourceMappingURL=style.css.map */
