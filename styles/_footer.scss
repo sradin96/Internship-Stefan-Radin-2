@@ -26,6 +26,9 @@
 	line-height: 24px;
 	font-size: 14px;
 	margin: 20px 0;
+	@media only screen and(max-width: 1024px){
+		font-size: 12px;
+	}
 }
 .socials-footer{
 	display: flex;
@@ -65,6 +68,9 @@
 	font-family: $poppins;
 	color: #888888;
 	transition: $transition;
+	@media only screen and(max-width: 1024px){
+		font-size: 12px;
+	}
 }
 
 .footer-link{
@@ -88,6 +94,9 @@
 	line-height: 33px;
 	text-transform: uppercase;
 	position: relative;
+	@media only screen and(max-width: 1024px){
+		font-size: 16px;
+	}
 }
 
 .foot-link{

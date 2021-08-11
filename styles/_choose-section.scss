@@ -13,10 +13,11 @@
 	width: 779px;
 	height: 489px;
 	@media only screen and (max-width: 1024px){
-		background-size: contain;
+		background-size: cover;
+		background-position: center;;
 		background-repeat: no-repeat;
+		height: 320px;
 		width: 100%;
-		height: 300px;
 	}
 }
 

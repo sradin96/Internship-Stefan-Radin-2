@@ -18,6 +18,11 @@
 	height: 448px;
 	z-index: 10;
 	padding: 65px 0 0 40px;
+	@media only screen and (max-width: 1024px){
+		width: 424px;
+		height: 400px;
+		padding: 30px;
+	}
 }
 
 .top-box{
@@ -45,6 +50,9 @@
 	width: 300px;
 	line-height: 48px;
 	margin-bottom: 40px;
+	@media only screen and (max-width: 1024px){
+		font-size: 24px;
+	}
 }
 
 .renovation-text{
@@ -52,6 +60,10 @@
 	font-size: 14px;
 	width: 450px;
 	line-height: 24px;
+	@media only screen and (max-width: 1024px){
+		font-size: 12px;
+		width: 400px;
+	}
 }
 
 .bottom-text{
