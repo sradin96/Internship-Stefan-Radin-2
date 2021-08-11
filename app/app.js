@@ -64,7 +64,7 @@ $(document).ready(function(){
 	})
 })
 
-$(".single-image").fancybox();
+$(".single-image").fancybox({});
 
 $(".open-menu").click(function () {
 	$(".open-menu").toggleClass("active-menu");
