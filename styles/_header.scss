@@ -126,11 +126,9 @@
 	@media only screen and(max-width: 1024px){
 		display: block;
 	}
-}
-
-.open-menu:hover {
-	color: $gold;
-	cursor: pointer;
+	&:hover{
+		color: $dark-gray-color;
+	}
 }
 
 .navbar {

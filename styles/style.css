@@ -233,8 +233,7 @@ li {
 }
 
 .open-menu:hover {
-  color: #af943e;
-  cursor: pointer;
+  color: #333333;
 }
 
 .navbar {
@@ -1779,7 +1778,7 @@ label {
 .textarea {
   outline: none;
   background: transparent;
-  max-width: 520px;
+  width: 520px;
   height: 130px;
   resize: none;
   padding: 10px;
