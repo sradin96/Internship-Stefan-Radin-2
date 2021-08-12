@@ -53,6 +53,9 @@
 	color: $white;
 	display: inline-block;
 	transition: $transition;
+	&:hover{
+		color: $gold;
+	}
 }
 
 .footer-list-social{
@@ -71,15 +74,14 @@
 	}
 }
 
-.asd:hover{
-	color: $gold;
-}
-
 .footer-links{
 	font-family: $poppins;
 	color: #888888;
 	transition: $transition;
 	font-size: 14px;
+	&:hover{
+		color: $gold;
+	}
 }
 
 .footer-link{
@@ -90,11 +92,6 @@
 	margin-right: 20px;
 	color: $white;
 }
-
-.footer-links:hover{
-	color: $gold;
-}
-
 .footer-span{
 	color: $white;
 	font-family: $poppins;

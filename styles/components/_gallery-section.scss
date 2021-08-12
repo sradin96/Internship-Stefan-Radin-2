@@ -33,14 +33,13 @@
 	width: 321px;
 	margin: 10px 0;
 	transition: all .4s ease-out;
+	&:hover{
+		opacity: 0.9;
+	}
 	@media only screen and (max-width: 1024px){
 		height: 129px;
 		width: 151px;
 	}
-}
-
-.gallery-img-box:hover{
-	opacity: 0.9;
 }
 
 .gallery-img{

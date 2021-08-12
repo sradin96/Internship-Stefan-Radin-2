@@ -397,17 +397,17 @@ li {
   transition: all 0.3s ease-out;
 }
 
+.main-btn:hover {
+  color: #af943e;
+  background: transparent;
+  border: 1px solid #af943e;
+}
+
 @media only screen and (max-width: 1024px) {
   .main-btn {
     padding: 8px 26px;
     font-size: 12px;
   }
-}
-
-.main-btn:hover {
-  color: #af943e;
-  background: transparent;
-  border: 1px solid #af943e;
 }
 
 .slick-dots {
@@ -628,6 +628,29 @@ li {
   width: 100%;
 }
 
+.story-img::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 439px;
+  height: 486px;
+  border: 2px solid #af943e;
+  bottom: -24px;
+  right: -26px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1024px) {
+  .story-img::after {
+    width: 239px;
+    height: 256px;
+    bottom: -14px;
+    left: 50%;
+    -webkit-transform: translateX(-42%);
+            transform: translateX(-42%);
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .story-img {
     display: -webkit-box;
@@ -649,29 +672,6 @@ li {
 @media only screen and (max-width: 1024px) {
   .main-story-img {
     width: 240px;
-  }
-}
-
-.story-img::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 439px;
-  height: 486px;
-  border: 2px solid #af943e;
-  bottom: -24px;
-  right: -26px;
-  z-index: -1;
-}
-
-@media only screen and (max-width: 1024px) {
-  .story-img::after {
-    width: 239px;
-    height: 256px;
-    bottom: -14px;
-    left: 50%;
-    -webkit-transform: translateX(-42%);
-            transform: translateX(-42%);
   }
 }
 
@@ -1002,18 +1002,6 @@ li {
   }
 }
 
-.questions-text::after {
-  content: "";
-  background: #b19d60;
-  position: absolute;
-  height: 65px;
-  width: 4px;
-  top: 0px;
-  left: 3px;
-  -webkit-transform: translateY(-40%);
-          transform: translateY(-40%);
-}
-
 .question-span {
   cursor: pointer;
   font-family: "Poppins", sans-serif;
@@ -1044,17 +1032,6 @@ li {
   position: relative;
 }
 
-.questions-box.active-state .show-text {
-  max-height: 1000px;
-  opacity: 1;
-  margin: 55px 0 28px 0;
-}
-
-.questions-box.active-state .fa-chevron-right {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-
 .show-text::before {
   content: "";
   position: absolute;
@@ -1079,12 +1056,35 @@ li {
   background: #f5f5f5;
 }
 
+.questions-box.active-state .show-text {
+  max-height: 1000px;
+  opacity: 1;
+  margin: 55px 0 28px 0;
+}
+
+.questions-box.active-state .fa-chevron-right {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
 .questions-text {
   color: #666666;
   font-size: 14px;
   font-family: "Poppins", sans-serif;
   line-height: 24px;
   padding: 45px 0 45px 90px;
+}
+
+.questions-text::after {
+  content: "";
+  background: #b19d60;
+  position: absolute;
+  height: 65px;
+  width: 4px;
+  top: 0px;
+  left: 3px;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1165,6 +1165,26 @@ li {
   position: relative;
 }
 
+.text-tab:after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 540px;
+  height: 2px;
+  background: #ffffff;
+  opacity: .5;
+}
+
+@media only screen and (max-width: 1024px) {
+  .text-tab:after {
+    width: 290px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   .text-tab {
     text-align: center;
@@ -1182,6 +1202,10 @@ li {
   position: relative;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+.tab:hover {
+  opacity: .9;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1209,10 +1233,6 @@ li {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
   }
-}
-
-.tab:hover {
-  opacity: .9;
 }
 
 .active-span-state {
@@ -1320,15 +1340,15 @@ li {
   transition: all .4s ease-out;
 }
 
+.gallery-img-box:hover {
+  opacity: 0.9;
+}
+
 @media only screen and (max-width: 1024px) {
   .gallery-img-box {
     height: 129px;
     width: 151px;
   }
-}
-
-.gallery-img-box:hover {
-  opacity: 0.9;
 }
 
 .gallery-img {
@@ -1455,16 +1475,16 @@ li {
   transition: all 0.3s ease-out;
 }
 
+.dolor-btn:hover {
+  color: #ffffff;
+  background: #212121;
+}
+
 @media only screen and (max-width: 1024px) {
   .dolor-btn {
     padding: 8px 18px;
     font-size: 12px;
   }
-}
-
-.dolor-btn:hover {
-  color: #ffffff;
-  background: #212121;
 }
 
 .dolor-sit {
@@ -1750,12 +1770,6 @@ li {
   margin: 30px 0 55px 0;
 }
 
-@media only screen and (max-width: 1024px) {
-  .contact-mini-header {
-    font-size: 30px;
-  }
-}
-
 .contact-mini-header::before {
   content: "";
   position: absolute;
@@ -1773,6 +1787,12 @@ li {
   width: 60px;
   bottom: -22px;
   left: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-mini-header {
+    font-size: 30px;
+  }
 }
 
 .text-section-info {
@@ -1825,6 +1845,12 @@ li {
   transition: all 0.3s ease-out;
 }
 
+.input-submit:hover {
+  color: #af943e;
+  border: 1px solid #af943e;
+  background: transparent;
+}
+
 @media only screen and (max-width: 1024px) {
   .input-submit {
     float: left;
@@ -1845,12 +1871,6 @@ input, label {
 
 label {
   margin-bottom: 20px;
-}
-
-.input-submit:hover {
-  color: #af943e;
-  border: 1px solid #af943e;
-  background: transparent;
 }
 
 .form-name {
@@ -2011,17 +2031,17 @@ label {
   transition: all 0.3s ease-out;
 }
 
+.clients-btn:hover {
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  background: transparent;
+}
+
 @media only screen and (max-width: 1024px) {
   .clients-btn {
     padding: 8px 26px;
     font-size: 12px;
   }
-}
-
-.clients-btn:hover {
-  color: #ffffff;
-  border: 1px solid #ffffff;
-  background: transparent;
 }
 
 .top-footer {
@@ -2107,6 +2127,10 @@ label {
   transition: all 0.3s ease-out;
 }
 
+.asd:hover {
+  color: #af943e;
+}
+
 .footer-list-social {
   border: 1px solid #af943e;
   border-radius: 50%;
@@ -2132,16 +2156,16 @@ label {
   }
 }
 
-.asd:hover {
-  color: #af943e;
-}
-
 .footer-links {
   font-family: "Poppins", sans-serif;
   color: #888888;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   font-size: 14px;
+}
+
+.footer-links:hover {
+  color: #af943e;
 }
 
 .footer-link {
@@ -2151,10 +2175,6 @@ label {
 .footer-right {
   margin-right: 20px;
   color: #ffffff;
-}
-
-.footer-links:hover {
-  color: #af943e;
 }
 
 .footer-span {

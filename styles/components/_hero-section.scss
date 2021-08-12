@@ -43,16 +43,15 @@
 
 .main-btn{
 	transition: $transition;
+	&:hover{
+		color: $gold;
+		background: transparent;
+		border: 1px solid $gold;
+	}
 	@media only screen and (max-width: 1024px){
 		padding: 8px 26px;
 		font-size: 12px;
 	}
-}
-
-.main-btn:hover{
-	color: $gold;
-	background: transparent;
-	border: 1px solid $gold;
 }
 
 .slick-dots {

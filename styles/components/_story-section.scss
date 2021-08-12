@@ -18,6 +18,24 @@
 	position: relative;
 	z-index: 5;
 	width: 100%;
+	&::after{
+		content: "";
+		display: block;
+		position: absolute;
+		width: 439px;
+		height: 486px;
+		border: 2px solid $gold;
+		bottom: -24px;
+		right: -26px;
+		z-index: -1;
+	@media only screen and (max-width: 1024px) {
+		width: 239px;
+		height: 256px;
+		bottom: -14px;
+		left: 50%;
+		transform: translateX(-42%);
+	}
+	}
 	@media only screen and (max-width: 1024px){
 		display: flex;
 		align-items: center;
@@ -29,25 +47,6 @@
 	width: 440px;
 	@media only screen and (max-width: 1024px) {
 		width: 240px;
-	}
-}
-
-.story-img::after{
-	content: "";
-	display: block;
-	position: absolute;
-	width: 439px;
-	height: 486px;
-	border: 2px solid $gold;
-	bottom: -24px;
-	right: -26px;
-	z-index: -1;
-	@media only screen and (max-width: 1024px) {
-		width: 239px;
-		height: 256px;
-		bottom: -14px;
-		left: 50%;
-		transform: translateX(-42%);
 	}
 }
 

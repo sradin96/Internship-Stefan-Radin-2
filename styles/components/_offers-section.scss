@@ -84,9 +84,8 @@
 
 .offers-box{
 	transition: $transition;
-}
-
-.offers-box:hover{
-	cursor: pointer;
-	opacity: .9;
+	&:hover{
+		cursor: pointer;
+		opacity: .9;
+	}
 }
