@@ -29,7 +29,6 @@ $('.nav-links').click(function () {
 
 $('.question-link').on('click', function () {
 	const text = $(this).parent();
-
 	if(text.hasClass('active-state')) {
 		text.removeClass('active-state');
 	} 
