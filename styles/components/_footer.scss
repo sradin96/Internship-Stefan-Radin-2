@@ -65,6 +65,10 @@
 	justify-content: center;
 	margin-right: 10px;
 	margin-top: 8px;
+	@media only screen and (max-width: 1024px) {
+		height: 45px;
+		width: 45px;
+	}
 }
 
 .asd:hover{
@@ -106,6 +110,9 @@
 
 .foot-link{
 	padding-left: 0;
+	@media only screen and(max-width: 1024px){
+		width: 200px;
+	}
 }
 
 .nav-footer, .contact-footer{

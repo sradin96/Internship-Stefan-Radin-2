@@ -272,7 +272,7 @@ li {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    top: 100px;
+    top: 90px;
     left: 0;
     width: 100%;
     background: #ffffff;
@@ -2125,6 +2125,13 @@ label {
   margin-top: 8px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .footer-list-social {
+    height: 45px;
+    width: 45px;
+  }
+}
+
 .asd:hover {
   color: #af943e;
 }
@@ -2168,6 +2175,12 @@ label {
 
 .foot-link {
   padding-left: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .foot-link {
+    width: 200px;
+  }
 }
 
 .nav-footer, .contact-footer {
