@@ -702,8 +702,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .renovation-section {
-    height: 1400px;
-    padding: 50px 0;
+    height: 100%;
   }
 }
 
@@ -1006,13 +1005,13 @@ li {
   max-height: 0;
   -webkit-transition: all 500ms ease-in;
   transition: all 500ms ease-in;
-  overflow: hidden;
+  opacity: 0;
   position: relative;
 }
 
 .questions-box.active-state .show-text {
   max-height: 1000px;
-  overflow: visible;
+  opacity: 1;
   margin: 55px 0 25px 0;
 }
 
@@ -1653,6 +1652,12 @@ li {
   width: 150px;
   margin-right: 120px;
   margin-top: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact-street {
+    width: 120px;
+  }
 }
 
 .contact-section-info {

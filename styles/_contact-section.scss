@@ -54,6 +54,9 @@
 	width: 150px;
 	margin-right: 120px;
 	margin-top: 10px;
+	@media only screen and (max-width: 1024px){
+		width: 120px;
+	}
 }
 
 .contact-section-info{
