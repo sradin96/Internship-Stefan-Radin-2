@@ -35,7 +35,7 @@
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		margin: 0 10px;
+		margin: 0;
 		justify-content: center;
 	}
 }
@@ -50,8 +50,8 @@
 	width: 257px;
 	transition: .3s;
 	@media only screen and(max-width: 1024px){
-		width: 140px;
-		height: 110px;
+		width: 150px;
+		height: 130px;
 	}
 }
 
@@ -71,7 +71,7 @@
 	text-transform: uppercase;
 	font-family: $poppins;
 	@media only screen and (max-width: 1024px){
-		font-size: 10px;
+		font-size: 12px;
 	}
 }
 

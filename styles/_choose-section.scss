@@ -47,6 +47,9 @@
 .text-tab{
 	margin: 65px 0 45px 0;
 	position: relative;
+	@media only screen and (max-width: 1024px) {
+		text-align: center;
+	}
 }
 
 .tab{
@@ -61,6 +64,7 @@
 	transition: $transition;
 	@media only screen and (max-width: 1024px){
 		margin: 0 10px;
+		font-size: 14px;
 	}
 }
 .text-tab:after{
@@ -73,8 +77,9 @@
 	background: $white;
 	opacity: .5;
 	@media only screen and (max-width: 1024px){
-		width: 280px;
-		left: 10px;
+		width: 290px;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 }
 
@@ -96,7 +101,8 @@
 		left: 50%;
 		transform: translateX(-50%);
 		@media only screen and (max-width: 1024px){
-			width: 90px;
+			width: 110px;
+			bottom: -13px
 		}
 }
 
@@ -107,6 +113,7 @@
 	line-height: 24px;
 	font-weight: 400;
 	display: none;
+	padding-right: 10px;
 }
 
 .active-text{

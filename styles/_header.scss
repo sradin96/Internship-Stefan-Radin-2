@@ -34,8 +34,8 @@
 	transform: translateY(0%);
 }
 
-.logo.active-bottom-head{
-	width: 100px;
+.bottom.active-bottom-head .logo-img{
+	width: 262px;
 }
 
 .top-header {
@@ -99,7 +99,8 @@
 }
 
 .logo-img{
-	width: 262px;
+	width: 200px;
+	transition: $transition;
 	@media only screen and (max-width: 1024px){
 		width: 182px;
 	}
@@ -158,6 +159,7 @@
 	@media only screen and(max-width: 1024px){
 		transform: translateY(0%);
 		opacity: 1;
+		padding-left: 0;
 	}
 }
 
