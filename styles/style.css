@@ -512,9 +512,9 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 10px 8px;
+  margin: 10px;
   height: 200px;
-  width: 260px;
+  width: 257px;
   -webkit-transition: .3s;
   transition: .3s;
 }
