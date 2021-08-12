@@ -5,7 +5,7 @@
 	align-items: center;
 	overflow: hidden;
 	@media only screen and (max-width: 1024px){
-		height: 1000px;
+		height: 850px;
 	}
 }
 .map-contain{
@@ -195,5 +195,17 @@
 	transform: translateY(-100%);
 	@media only screen and (max-width: 1024px){
 		transform: translateY(0%);
+	}
+}
+
+.address-social-left{
+	@media only screen and (max-width: 1024px){
+		transform: translateX(-100%);
+	}
+}
+
+.address-social-right{
+	@media only screen and (max-width: 1024px){
+		transform: translateX(100%);
 	}
 }

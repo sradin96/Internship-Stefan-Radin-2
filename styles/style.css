@@ -1302,7 +1302,7 @@ li {
 
 @media only screen and (max-width: 1024px) {
   .map-section {
-    height: 1000px;
+    height: 850px;
   }
 }
 
@@ -1575,6 +1575,20 @@ li {
   .address-social--up {
     -webkit-transform: translateY(0%);
             transform: translateY(0%);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .address-social-left {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .address-social-right {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
 }
 
