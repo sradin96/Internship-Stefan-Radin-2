@@ -46,10 +46,10 @@ li {
 .underline::after {
   content: "";
   position: absolute;
-  width: 39px;
+  width: 50px;
   height: 3px;
   background: #af943e;
-  bottom: -19px;
+  bottom: -21px;
   left: 0;
 }
 
@@ -373,9 +373,10 @@ li {
 }
 
 .hero-text {
-  margin: 53px 0 34px 0;
+  margin: 52px 0 34px 0;
   font-size: 18px;
   font-family: "Merriweather", serif;
+  letter-spacing: .1px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -450,7 +451,7 @@ li {
 
 .offers-section {
   text-align: center;
-  padding: 60px 0 130px 0;
+  padding: 60px 0 120px 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -479,7 +480,7 @@ li {
   font-size: 16px;
   font-family: "Merriweather", serif;
   color: #666666;
-  margin: 34px 0 100px 0;
+  margin: 34px 0 101px 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -587,7 +588,7 @@ li {
 
 .story-section {
   background: #f3f4f5;
-  padding: 140px 0 170px 0;
+  padding: 150px 0 168px 0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -764,9 +765,9 @@ li {
 .renovation-box {
   text-align: left;
   width: 624px;
-  height: 448px;
+  height: 445px;
   z-index: 10;
-  padding: 65px 0 0 40px;
+  padding: 63px 0 0 42px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -876,7 +877,7 @@ li {
 
 .testimonials-box {
   border: 1px solid #af943e;
-  padding: 40px 0px 55px 0;
+  padding: 42px 0px 55px 0;
   position: relative;
 }
 
@@ -945,7 +946,7 @@ li {
 }
 
 .questions-section {
-  padding: 50px 0 72px;
+  padding: 50px 0 70px;
   overflow: hidden;
 }
 
@@ -968,7 +969,7 @@ li {
 }
 
 .questions-box {
-  margin: 20px 0 0 75px;
+  margin: 20px 0 0 77px;
   position: relative;
 }
 
@@ -980,7 +981,7 @@ li {
 
 .fa-chevron-right {
   color: #b19d60;
-  margin-right: 75px;
+  margin-right: 77px;
   -webkit-transition: all 500ms ease-in;
   transition: all 500ms ease-in;
   cursor: pointer;
@@ -1128,7 +1129,8 @@ li {
   font-size: 36px;
   line-height: 48px;
   margin-bottom: 55px;
-  margin-top: 37px;
+  margin-top: 36px;
+  letter-spacing: .5px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1152,7 +1154,7 @@ li {
 }
 
 .text-tab {
-  margin: 65px 0 45px 0;
+  margin: 65px 0 50px 0;
   position: relative;
 }
 
@@ -1265,8 +1267,9 @@ li {
 
 .gallery-section {
   text-align: center;
-  padding: 62px 0 65px 0;
+  padding: 63px 0 65px 0;
   overflow: hidden;
+  letter-spacing: .7px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1282,7 +1285,7 @@ li {
   text-transform: uppercase;
   color: #333333;
   position: relative;
-  margin-bottom: 57px;
+  margin-bottom: 58px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1757,7 +1760,7 @@ li {
   content: "";
   position: absolute;
   background: #111111;
-  height: 7px;
+  height: 10px;
   width: 60px;
   bottom: -22px;
   left: 0;
@@ -2122,12 +2125,7 @@ label {
   color: #888888;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-}
-
-@media only screen and (max-width: 1024px) {
-  .footer-links {
-    font-size: 14px;
-  }
+  font-size: 14px;
 }
 
 .footer-link {
@@ -2188,7 +2186,7 @@ label {
 }
 
 .footer-navigation {
-  margin-top: 17px;
+  margin-top: 13px;
   width: 250px;
   margin-right: 25px;
 }

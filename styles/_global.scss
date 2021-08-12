@@ -56,13 +56,13 @@ li{
 	}
 }
 
-.underline::after{
+.underline::after {
 	content: "";
 	position: absolute;
-	width: 39px;
+	width: 50px;
 	height: 3px;
-	background: $gold;
-	bottom: -19px;
+	background: #af943e;
+	bottom: -21px;
 	left: 0;
 }
 

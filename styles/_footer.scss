@@ -75,9 +75,7 @@
 	font-family: $poppins;
 	color: #888888;
 	transition: $transition;
-	@media only screen and (max-width: 1024px){
-		font-size: 14px;
-	}
+	font-size: 14px;
 }
 
 .footer-link{
@@ -132,7 +130,7 @@
 }
 
 .footer-navigation{
-	margin-top: 17px;
+	margin-top: 13px;
 	width: 250px;
 	margin-right: 25px;
 }
