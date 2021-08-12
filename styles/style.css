@@ -929,7 +929,7 @@ li {
   font-weight: 600;
   color: #333333;
   position: relative;
-  margin-bottom: 80px;
+  margin-bottom: 77px;
   margin-top: 7px;
   letter-spacing: -.8px;
 }
@@ -1012,7 +1012,7 @@ li {
 .questions-box.active-state .show-text {
   max-height: 1000px;
   opacity: 1;
-  margin: 55px 0 25px 0;
+  margin: 55px 0 28px 0;
 }
 
 .questions-box.active-state .fa-chevron-right {
@@ -1101,7 +1101,7 @@ li {
   font-size: 36px;
   line-height: 48px;
   margin-bottom: 55px;
-  margin-top: 40px;
+  margin-top: 37px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1227,7 +1227,7 @@ li {
 
 .gallery-section {
   text-align: center;
-  padding: 65px 0 65px 0;
+  padding: 62px 0 65px 0;
   overflow: hidden;
 }
 
@@ -1377,7 +1377,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 30px 0 54px 0;
+  margin: 28px 0 57px 0;
 }
 
 .dolor-text {
@@ -1422,7 +1422,7 @@ li {
 .dolor-sit {
   background: #ffffff;
   height: 540px;
-  max-width: 530px;
+  max-width: 532px;
   -webkit-box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
           box-shadow: 0 4px 57px rgba(0, 1, 1, 0.23);
   padding: 75px 130px 0 87px;
@@ -1628,7 +1628,7 @@ li {
 }
 
 .contact-text {
-  padding: 70px 0 0 110px;
+  padding: 70px 0 0 107px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1665,7 +1665,7 @@ li {
           flex-direction: column;
   width: 150px;
   margin-right: 120px;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1682,7 +1682,7 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .contact-mini-header {
@@ -1751,14 +1751,14 @@ li {
 .input-submit {
   background: #af943e;
   color: #ffffff;
-  width: 145px;
+  width: 148px;
   height: 50px;
   font-family: "Poppins", sans-serif;
   border: none;
   text-transform: uppercase;
   font-size: 16px;
   float: right;
-  margin-top: 15px;
+  margin-top: 12px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
@@ -1805,8 +1805,8 @@ label {
 .textarea {
   outline: none;
   background: transparent;
-  width: 520px;
-  height: 130px;
+  width: 525px;
+  height: 134px;
   resize: none;
   padding: 10px;
 }
@@ -1883,7 +1883,7 @@ label {
 }
 
 .clients-img {
-  margin: 50px 30px 42px 30px;
+  margin: 50px 30px 43px 30px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2106,7 +2106,7 @@ label {
 .bottom-footer {
   background: #141516;
   text-align: center;
-  padding: 20px 0;
+  padding: 16px 0;
 }
 
 .copyright {
@@ -2124,7 +2124,7 @@ label {
 }
 
 .footer-navigation {
-  margin-top: 18px;
+  margin-top: 17px;
   width: 250px;
   margin-right: 25px;
 }
