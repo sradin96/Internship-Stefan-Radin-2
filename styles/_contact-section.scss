@@ -13,10 +13,12 @@
 .contact-img-bg{
 	width: 943px;
 	height: 780px;
+	background-size: cover;
 	@media only screen and(max-width: 1024px){
 		@media only screen and (max-width: 1024px){
 			object-fit: contain;
 			background-repeat: no-repeat;
+			background-position: center;
 			height: 420px;
 			width: 100%;
 		}
