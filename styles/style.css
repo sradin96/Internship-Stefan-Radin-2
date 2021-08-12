@@ -2030,8 +2030,8 @@ label {
 .footer-list-social {
   border: 1px solid #af943e;
   border-radius: 50%;
-  padding: 4px 12px;
-  margin-right: 8px;
+  padding: 6px;
+  margin-right: 10px;
   margin-top: 8px;
 }
 
@@ -2113,5 +2113,29 @@ label {
   margin-top: 18px;
   width: 250px;
   margin-right: 25px;
+}
+
+.wrap-foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.w-f {
+  margin-top: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.w-f i {
+  margin: 35px 20px 20px 0;
 }
 /*# sourceMappingURL=style.css.map */
