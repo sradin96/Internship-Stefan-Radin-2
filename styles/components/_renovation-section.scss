@@ -1,5 +1,5 @@
 .renovation-section{
-	height: 1084px;
+	height: 100%;
 	@media only screen and (max-width: 1024px){
 		height: 100%;
 	}
@@ -14,8 +14,8 @@
 }
 
 .reno-img{
-	width: 999px;
-	height: 542px;
+	width: 1003px;
+	height: 548px;
 	@media only screen and (max-width: 1024px){
 		background-size: cover;
 		width: 100%;
@@ -26,8 +26,8 @@
 
 .renovation-box{
 	text-align: left;
-	width: 624px;
-	height: 445px;
+	width: 631px;
+	height: 450px;
 	z-index: 10;
 	padding: 63px 0 0 42px;
 	@media only screen and (max-width: 1024px){
@@ -40,8 +40,8 @@
 .top-box{
 	background: #1c1c1c;
 	color: $white;
-	transform: translateX(-21%);
-	margin-bottom: 20px;
+	transform: translateX(-20%);
+	margin-bottom: 18px;
 	@media only screen and (max-width: 1024px){
 		transform: translateX(0%);
 		margin-bottom: 0;
@@ -59,7 +59,7 @@
 
 .bottom-box{
 	background: #f3f4f5;
-	transform: translateX(21%);
+	transform: translateX(22%);
 	color: $dark-gray-color;
 	margin-bottom: 5px;
 	@media only screen and (max-width: 1024px){
@@ -74,7 +74,7 @@
 	font-weight: 600;
 	width: 300px;
 	line-height: 48px;
-	margin-bottom: 40px;
+	margin-bottom: 41px;
 	@media only screen and (max-width: 1024px){
 		font-size: 24px;
 		width: 200px;

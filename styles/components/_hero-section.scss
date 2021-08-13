@@ -1,7 +1,9 @@
 .hero-section{
-	height: 773px;
+	height: 780px;
 	width: 100%;
 	position: relative;
+	background-position: bottom;
+	background-repeat: no-repeat;
 	@media only screen and (max-width: 1024px){
 		background-size: cover;
 		background-repeat: no-repeat;
@@ -24,17 +26,18 @@
 	font-size: 60px;
 	font-weight: 600;
 	padding-left: 0px;
-	
+	letter-spacing: .4px;
 	@media only screen and(max-width: 1024px){
 		font-size: 34px;
 	}
 }
 
 .hero-text{
-	margin: 52px 0 34px 0;
+	margin: 55px 0 32px 0;
     font-size: 18px;
     font-family: "Merriweather", serif;
     letter-spacing: .1px;
+	line-height: 29px;
 	@media only screen and(max-width: 1024px){
 		font-size: 14px;
 		margin: 30px 0 20px 0;
@@ -58,9 +61,12 @@
 	li{
 		margin: -1px
 	}
-
+	width: 50%;
 	position: absolute;
-	bottom: 27px;
+	bottom: 28px;
+	margin-left: 10px;
+	left: 50%;
+	transform: translateX(-50%);
 	li button:before,
 	li.slick-active button:before {
 	  color: transparent;

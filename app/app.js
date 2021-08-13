@@ -5,6 +5,9 @@ $(document).ready(function() {
 	  speed: 700,
 	  dots: true,
 	  arrows: false,
+	  autoplay: true,
+	  autoplaySpeed: 2000,
+	  pauseOnFocus: true,
 	};
 	$('.slider').slick(slickOpts);
   });
@@ -29,6 +32,7 @@ $('.nav-links').click(function () {
 
 $('.question-link').on('click', function () {
 	const text = $(this).parent();
+
 	if(text.hasClass('active-state')) {
 		text.removeClass('active-state');
 	} 
@@ -47,20 +51,17 @@ var lastScrollTop = 0;
 $(document).ready(function(){
 	$(window).scroll(function(){
 		var scroll = $(this).scrollTop();
-		if (scroll > lastScrollTop) {
-			$(".top").removeClass('active-top-head');	
+
+		if (scroll > lastScrollTop) {		
+			$(".top").removeClass('active-top-head');
+			$(".bottom").removeClass('active-bottom-head');	
 		}
 		else {
 			$(".top").addClass('active-top-head');	
-		}
-		if ($(window).width() > 1024 && scroll > lastScrollTop) {
-			$(".bottom").removeClass('active-bottom-head');
-		}
-		else {
 			$(".bottom").addClass('active-bottom-head');
 		}
-		lastScrollTop = scroll;
-	})
+		lastScrollTop = scroll;	
+	})	
 })
 
 $(".single-image").fancybox({});

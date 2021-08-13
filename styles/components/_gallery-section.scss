@@ -2,7 +2,6 @@
 	text-align: center;
 	padding: 63px 0 65px 0;
 	overflow: hidden;
-	letter-spacing: .7px;
 	@media only screen and (max-width: 1024px){
 		padding: 30px 0;
 	}
@@ -12,10 +11,13 @@
 	font-family: $poppins;
 	font-size: 36px;
 	line-height: 42px;
+	font-weight: 600;
 	text-transform: uppercase;
 	color: $dark-gray-color;
 	position: relative;
 	margin-bottom: 58px;
+	letter-spacing: .5;
+	line-height: 46px;
 	@media only screen and (max-width: 1024px){
 		font-size: 30px;
 	}
@@ -29,9 +31,8 @@
 }
 
 .gallery-img-box{
-	height: 299px;
 	width: 321px;
-	margin: 10px 0;
+	margin: 12px 0;
 	transition: all .4s ease-out;
 	&:hover{
 		opacity: 0.9;
@@ -44,5 +45,4 @@
 
 .gallery-img{
 	width: 100%;
-	height: 100%;
 }

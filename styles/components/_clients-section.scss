@@ -1,5 +1,9 @@
 .clients-section {
 	text-align: center;
+	height: 585px;
+	@media only screen and (max-width: 1024px){
+		height: unset;
+	}
 }
 
 .clients-head {
@@ -9,7 +13,7 @@
 	text-transform: uppercase;
 	color: $dark-gray-color;
 	position: relative;
-	margin-bottom: 35px;
+	line-height: 46px;
 	@media only screen and (max-width: 1024px){
 		font-size: 30px;
 	}
@@ -19,13 +23,14 @@
 	color: $lite-gray-color;
 	font-size: 16px;
 	font-family: $merriweather;
+	margin-bottom: 74px;
+	margin-top: 36px;
 	@media only screen and (max-width: 1024px){
 		font-size: 14px;
 	}
 }
 
 .clients-box{
-	margin-top: 80px;
 	@media only screen and (max-width: 1024px){
 		margin-top: 50px;
 	}
@@ -45,7 +50,7 @@
 }
 
 .clients-img{
-	margin: 50px 30px 43px 30px;
+	margin: 50px 30px;
 	@media only screen and (max-width: 1024px){
 		margin: 20px 30px;
 		width: 80px;
@@ -56,12 +61,13 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 35px 93px;
+	padding: 34px 95px;
 	background: $gold;
-	transform: translateY(50%);
+	transform: translateY(44%);
 	@media only screen and (max-width: 1024px){
 		flex-direction: column;
 		padding: 20px;
+		transform: translateY(50%);
 	}
 }
 
@@ -84,7 +90,7 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	font-family: $poppins;
-	padding: 12px 28px;
+	padding: 14px 29px;
 	transition: $transition;
 	&:hover{
 		color: $white;

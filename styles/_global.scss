@@ -28,10 +28,10 @@ body{
 	overflow-x: hidden;
 }
 
-
 .container{
-	max-width: 1110px;
+	max-width: 1140px;
 	margin: auto;
+	padding-left: 30px;
 }
 
 a{
@@ -48,7 +48,7 @@ li{
 	background: $gold;
 	color: $white;
 	text-transform: uppercase;
-	padding: 13px 35px;
+	padding: 14px 36px;
 	border-radius: 0;
 	@media only screen and (max-width: 1024px){
 		padding: 8px 26px;
@@ -62,12 +62,12 @@ li{
 	width: 50px;
 	height: 3px;
 	background: #af943e;
-	bottom: -21px;
+	bottom: -24px;
 	left: 0;
 }
 
 .main-body{
-	margin-top: 158px;
+	margin-top: 160px;
 	@media only screen and (max-width: 1024px){
 		margin-top: 92px;
 	}

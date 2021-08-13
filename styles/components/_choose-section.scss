@@ -10,8 +10,8 @@
 }
 
 .choose-img{
-	width: 779px;
-	height: 489px;
+	width: 786px;
+	height: 493px;
 	@media only screen and (max-width: 1024px){
 		background-size: cover;
 		background-position: center;;
@@ -28,7 +28,7 @@
 	line-height: 48px;
 	margin-bottom: 55px;
 	margin-top: 36px;
-	letter-spacing: .5px;
+	letter-spacing: .8px;
 	@media only screen and (max-width: 1024px){
 		font-size: 30px;
 		margin-top: 10px;
@@ -38,7 +38,8 @@
 .choose-text{
 	padding: 0px 0px 50px 90px;
 	text-align: left;
-	max-width: 638px;
+	max-width: 642px;
+	letter-spacing: .2px;
 	@media only screen and (max-width: 1024px){
 		padding: 20px;
 		font-size: 12px;

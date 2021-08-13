@@ -2,7 +2,7 @@
 	display: flex;
 	background: #f1f1f1f1;
 	margin-bottom: 85px;
-	height: 780px;
+	height: 788px;
 	@media only screen and(max-width: 1024px){
 		flex-direction: column;
 		height: 100%;
@@ -11,8 +11,7 @@
 }
 
 .contact-img-bg{
-	width: 943px;
-	height: 780px;
+	width: 951px;
 	background-size: cover;
 	@media only screen and(max-width: 1024px){
 		@media only screen and (max-width: 1024px){
@@ -25,8 +24,10 @@
 	}
 }	
 
+
 .contact-text{
-	padding: 70px 0 0 107px;
+	padding: 72px 0 0 107px;
+	max-width: 100%;
 	@media only screen and(max-width: 1024px){
 		padding: 40px 10px 20px 10px;
 	}
@@ -56,8 +57,8 @@
 .contact-street{
 	display: flex;
 	flex-direction: column;
-	width: 150px;
-	margin-right: 120px;
+	width: 127px;
+	margin-right: 130px;
 	margin-top: 12px;
 	@media only screen and (max-width: 1024px){
 		width: 120px;
@@ -123,7 +124,7 @@
 	background: transparent;
 	border-bottom: 1px solid #000000;
 	outline: none;
-	width: 250px;
+	width: 255px;
 	@media only screen and(max-width: 1024px){
 		width: 160px;
 	}
@@ -139,7 +140,7 @@
 	text-transform: uppercase;
 	font-size: 16px;
 	float: right;
-	margin-top: 12px;
+	margin-top: 14px;
 	transition: $transition;
 	&:hover{
 		color: $gold;
@@ -184,8 +185,8 @@ label{
 .textarea{
 	outline: none;
 	background: transparent;
-	width: 525px;
-	height: 134px;
+	width: 531px;
+	height: 136px;
 	resize: none;
 	padding: 10px;
 	@media only screen and(max-width: 1024px){

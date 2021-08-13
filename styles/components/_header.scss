@@ -23,6 +23,7 @@
 	background: $white;
 	z-index: 999;
 	top: 40px;
+	box-shadow: 0 3px 5px -2px $dark-gray-color;
 	transition: all .2s ease-out;
 	transform: translateY(-50%);
 	@media only screen and (max-width: 1024px){
@@ -32,6 +33,7 @@
 
 .bottom.active-bottom-head{
 	transform: translateY(0%);
+	box-shadow: none;
 }
 
 .bottom.active-bottom-head .logo-img{
@@ -78,7 +80,7 @@
 }
 
 .socials-list{
-	margin-left: 22px;
+	margin-left: 24px;
 }
 
 .socials-link{
@@ -151,23 +153,24 @@
 		width: 100%;
 		background: $white;
 		height: 270px;
-		transform: translateY(-150%);
+		transform: translateX(100%);
 		opacity: 0;
-		transition: all .4s ease-out;
+		transition: $transition;
 		z-index: 999;
 	}
 }
 
 .navigation-bar.show-menu{
 	@media only screen and(max-width: 1024px){
-		transform: translateY(0%);
+		transform: translateX(0%);
 		opacity: 1;
 		padding-left: 0;
 	}
 }
 
 .nav-lists {
-	margin-left: 32px;
+	margin-left: 34px;
+	margin-top: 3px;
 	@media only screen and(max-width: 1024px){
 		margin: 20px 0;
 	}

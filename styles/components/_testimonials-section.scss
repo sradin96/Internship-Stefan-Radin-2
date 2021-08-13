@@ -1,7 +1,7 @@
 .testimonials-section{
 	background:  #181a1b;
 	text-align: center;
-	padding: 100px 0 97px 0;
+	padding: 102px 0 100px 0;
 	@media only screen and (max-width: 1024px){
 		padding: 50px 0;
 	}
@@ -9,7 +9,7 @@
 
 .testimonials-box{
 	border: 1px solid $gold;
-	padding: 42px 0px 55px 0;
+	padding: 42px 0px 54px 0;
 	position: relative;
 }
 
@@ -20,6 +20,7 @@
 	font-weight: 600;
 	text-transform: uppercase;
 	position: relative;
+	line-height: 46px;
 	@media only screen and (max-width: 1024px){
 		font-size: 30px;
 	}
@@ -31,7 +32,7 @@
 	color: $white;
 	line-height: 30px;
 	width: 850px;
-	margin: 50px auto 20px auto;
+	margin: 45px auto 22px auto;
 	@media only screen and (max-width: 1024px){
 		width: 95%;
 		font-size: 12px;
@@ -59,7 +60,9 @@
 
 .testimonials-section{
 	.slick-dots{
-		
+		position: absolute;
+		bottom: 27px;
+		margin-left: 0;
 		li button:before {
 			border: 1px solid $gold;
 			margin-top: 80px;
